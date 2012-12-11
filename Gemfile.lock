@@ -46,6 +46,8 @@ GEM
       multi_json (~> 1.0)
       multi_xml
     i18n (0.6.1)
+    jbuilder (0.9.0)
+      activesupport (>= 3.0.0)
     journey (1.0.4)
     jquery-rails (2.1.4)
       railties (>= 3.0, < 5.0)
@@ -114,8 +116,8 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   httparty
+  jbuilder
   jquery-rails
-  json
   rails (= 3.2.6)
   rails-backbone
   sass-rails (~> 3.2.3)

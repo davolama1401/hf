@@ -3,7 +3,8 @@ class PropertiesController < ApplicationController
   respond_to :json
 
   def index
-    respond_with(do_api_call)
+    @response = do_api_call
+    respond_with(@response)
   end
 
   def show
