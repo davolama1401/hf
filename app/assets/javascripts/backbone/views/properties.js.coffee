@@ -1,3 +1,23 @@
+class Hf.Views.PropertyView extends Backbone.Views
+  
+  
+class Hf.Views.PropertiesListView extends Backbone.Views
+  initialize: (options) ->
+    if @collection?
+      @collection.on('reset', @addAll, @)
+      
+  render: ->
+    @addAll()
+    
+  addAll: ->
+    @$el.html("")
+    if @collection? and @collection.length > 0
+      @collection.forEach(@addOne, this)
+
+  addOne: (property) ->
+    propertyView = new Hf.Views.PropertyView(model: property)
+    @$el.append(propertyView.render().el)
+
 class Hf.Views.PropertySearchView extends Backbone.View
   template:
     '<div class="navbar">' +
@@ -42,7 +62,9 @@ class Hf.Views.PropertySearchView extends Backbone.View
     
 class Hf.Views.PropertiesView extends Backbone.View
   
-  template: "<div id='search'></div>"
+  template: 
+    "<div id='search'></div>" +
+    "<div id='properties'></div>"
   
   initialize: (options) ->
     
@@ -51,5 +73,8 @@ class Hf.Views.PropertiesView extends Backbone.View
 
     searchView = new Hf.Views.PropertySearchView(collection: @collection)
     @$('#search').html(searchView.render().el)
+    
+    propertiesListView = new Hf.Views.PropertiesListView(collection: @collection)
+    @$('#properties').html(propertiesListView.render().el)
     
     return this
