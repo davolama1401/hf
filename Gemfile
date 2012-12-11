@@ -5,11 +5,6 @@ gem 'rails', '3.2.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
-  gem 'sqlite3'
-end
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -25,6 +20,9 @@ end
 gem 'jquery-rails'
 
 gem 'httparty'
+gem 'rails-backbone'
+gem 'json'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -34,9 +32,6 @@ gem 'httparty'
 
 # Use unicorn as the app server
 # gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'

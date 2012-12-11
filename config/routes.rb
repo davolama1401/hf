@@ -1,5 +1,5 @@
 Hf::Application.routes.draw do
-  root to: 'properties#index'
+  root to: 'home#index'
 
   scope "/api" do
     resources :properties, constraints: {format: 'json'}, only: [:index, :show] 
