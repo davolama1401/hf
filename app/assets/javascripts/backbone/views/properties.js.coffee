@@ -1,13 +1,15 @@
-class Hf.Views.PropertyView extends Backbone.Views
+class Hf.Views.PropertyView extends Backbone.View
+  render: ->
+    return this
   
-  
-class Hf.Views.PropertiesListView extends Backbone.Views
+class Hf.Views.PropertiesListView extends Backbone.View
   initialize: (options) ->
     if @collection?
       @collection.on('reset', @addAll, @)
       
   render: ->
     @addAll()
+    return this
     
   addAll: ->
     @$el.html("")
@@ -23,7 +25,7 @@ class Hf.Views.PropertySearchView extends Backbone.View
     '<div class="navbar">' +
       '<div class="navbar-inner">' +
         '<div class="container">' +
-          '<a class="brand" href="#">HomeFinder.com</a>' +
+          '<a class="brand" href="#">FindHomer.com</a>' +
           '<form class="navbar-form pull-right">' +
             '<input type="text" id="zip" placeholder="Address or Zipcode">' +
             '<input type="text" id="min" placeholder="Min Price">' +
