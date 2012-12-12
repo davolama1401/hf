@@ -109,8 +109,12 @@ class Hf.Views.PropertiesListView extends Backbone.View
 
   noResultsTemplate: "<div>No properties found</div>"
   
-  getStartedTemplate: "Start by typing in a zipcode above."
-  
+  getStartedTemplate: 
+    '<div class="hero-unit">' +
+      '<h1>Welcome to HomeFinder.com</h1>' +
+      '<p>Start searching properties by filling in the form above.</p>' +
+    '</div>  '
+    
   initialize: (options) ->
     if @collection?
       @collection.on('reset', @addAll, @)
@@ -121,10 +125,6 @@ class Hf.Views.PropertiesListView extends Backbone.View
     return this
     
   showSpinner: (e) ->
-    if e
-      e.preventDefault()
-      e.stopPropagation()
-    
     @$el.html("Searching...")
     
   addAll: ->
@@ -259,7 +259,7 @@ class Hf.Views.PropertySearchView extends Backbone.View
     
   executeSearch: (searchCriteria) ->
     if searchCriteria? and searchCriteria.zip
-      @collection.trigger('prefetch')
+      @collection.trigger('prefetch', searchCriteria)
       @collection.fetch
         data:
           zip:  searchCriteria.zip
@@ -296,10 +296,14 @@ class Hf.Views.PropertiesView extends Backbone.View
       min: options.min
       max: options.max
     )
+    @collection.on('prefetch', @handlePreFetch, @)
 
     @propertiesListView = new Hf.Views.PropertiesListView(collection: @collection)
     @propertiesListView.on("view:properties_list:click", @handlePropertyClick, @)
 
+  handlePreFetch: (data) =>
+    @trigger('prefetch', data)
+    
   handlePropertyClick: (propertyId) =>
     @trigger('view:properties:click', propertyId)
     

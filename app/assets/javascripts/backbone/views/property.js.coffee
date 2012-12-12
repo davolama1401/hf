@@ -29,6 +29,7 @@ class Hf.Views.PropertyView extends Backbone.View
     "No photos available"
     
   propertyTemplate:
+    '<div class="row-fluid"><a href="#" id="back_to_results">< back to search results</a></div>' +
     '<div class="row-fluid">' + 
       '<div class="span12">' + 
         '<div class="media">' +
@@ -48,8 +49,8 @@ class Hf.Views.PropertyView extends Backbone.View
             '<p>' +
               '<address>' +
                 '<%= agent.name %> <br>' +
-                'E: <%= agent.email %>, P: <%= agent.phone %> <br>' +
-                'Web: <%= agent.siteUrl %> <br>' +
+                'E: <a href="mailto:<%= agent.email %>"><%= agent.email %></a>, P: <a href="tel:<%= agent.phone %>"><%= agent.phone %></a> <br>' +
+                'Web: <a href="<%= agent.siteUrl %>"><%= agent.siteUrl %></a> <br>' +
                 '<a href="<%= agent.listingsUrl %>">View Listings</a> <br>' +
               '</address>' +
             '</p>' +
@@ -80,10 +81,19 @@ class Hf.Views.PropertyView extends Backbone.View
     "<div id='nav'></div>" +
     "<div id='property' class='span10'></div>"
   
+  events:
+    "click a#back_to_results": "handleBackToResults"
+  
   initialize: (options) ->
     @model.on 'change', @render, @
     
-  
+  handleBackToResults: (e) ->
+    if e
+      e.preventDefault()
+      e.stopPropagation()
+      
+    window.history.back()
+    
   render: ->
     @$el.html("")
     
