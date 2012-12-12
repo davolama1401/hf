@@ -3,19 +3,28 @@ class PropertiesController < ApplicationController
   respond_to :json
 
   def index
-    @response = do_api_call
+    @response = property_list()
     respond_with(@response)
   end
 
   def show
+    @response = property()
+    respond_with(@response)
   end
   
   private
-  def do_api_call
-    zip = params[:zip]
-    min = params[:min]
-    max = params[:max]
-    response = HTTParty.get("http://services.homefinder.com/listingServices/search?area=#{zip}&price=#{min}%20TO%20#{max}&apikey=#{API_KEY}")
+  def property
+    property_id = params[:id]
+    response = HTTParty.get("http://services.homefinder.com/listingServices/details?id=#{property_id}&apikey=#{API_KEY}")
+    response.body
+  end
+  
+  def property_list
+    zip  = params[:zip]
+    min  = params[:min]
+    max  = params[:max]
+    page = params[:page]
+    response = HTTParty.get("http://services.homefinder.com/listingServices/search?area=#{zip}&price=#{min}%20TO%20#{max}&page=#{page}&apikey=#{API_KEY}")
     response.body
   end
 end

@@ -1,11 +1,13 @@
-class Hf.Views.PropertyView extends Backbone.View
+class Hf.Views.PropertyMiniView extends Backbone.View
   className: "hero-unit"
   addressTemplate:
     "<%= type %></div>" +
     "<address>" +
     "<strong><%= address.line1 %> </strong><br>" +
     "<strong><%= address.city %>, <%= address.state %> <%= address.zip %></strong><br>" +
+    "<a id='detail_link' href='#'>Property details</a>" +    
     "</address>"
+    
   primaryPhotoTemplate:
     '<div class="hidden-phone">' +
     '<img src="<%= url %>" class="img-polaroid">' +
@@ -28,8 +30,18 @@ class Hf.Views.PropertyView extends Backbone.View
     '</div>'
 
   detailsTemplate:
-    "<div>Price: <%= price %>, Beds: <%= bed %>, Baths(total): <%= bath.total %></div>"
-  
+    "<div>Price: <%= price %>" + 
+    "<% if (typeof(bed) != 'undefined') {%>" +
+    ", Beds: <%= bed %>" +
+    "<% } else { %>" +
+    ", Beds: Unknown" +
+    "<% } %>" +
+    "<% if (typeof(bath) != 'undefined') {%>" +
+    ", Baths(total): <%= bath.total %></div>" +
+    "<% } else { %>" +
+    ", Baths(total): Unknown </div>" +
+    "<% } %>"
+
   mainTemplate:
     '<div class="row-fluid">' +
       "<div id='primary_photo' class='span2'></div>" +
@@ -42,6 +54,16 @@ class Hf.Views.PropertyView extends Backbone.View
       "<div id='description'></div>" +
     '</div>'
 
+  events:
+    "click #detail_link" : "showDetails"
+
+  showDetails: (e) ->
+    if e
+      e.preventDefault()
+      e.stopPropagation()
+      
+    @trigger("view:property:click", @model.id)
+    
   render: ->
     @$el.html(@mainTemplate)
     
@@ -85,7 +107,9 @@ class Hf.Views.PropertiesListView extends Backbone.View
     "<div id='properties' class='span10'></div>" +
     "<div id='properties-right' class='span1'></div>"
 
-  emptyTemplate: "<div>No properties found</div>"
+  noResultsTemplate: "<div>No properties found</div>"
+  
+  getStartedTemplate: "Start by typing in a zipcode above."
   
   initialize: (options) ->
     if @collection?
@@ -93,6 +117,7 @@ class Hf.Views.PropertiesListView extends Backbone.View
       @collection.on('prefetch', @showSpinner, @)
       
   render: ->
+    @$el.html(@getStartedTemplate)
     return this
     
   showSpinner: (e) ->
@@ -108,11 +133,15 @@ class Hf.Views.PropertiesListView extends Backbone.View
       @$el.append(@resultsTemplate)
       @collection.forEach(@addOne, @)
     else
-      @$el.append(@emptyTemplate)
+      @$el.append(@noResultsTemplate)
 
   addOne: (property) ->
-    propertyView = new Hf.Views.PropertyView(model: property)
+    propertyView = new Hf.Views.PropertyMiniView(model: property)
+    propertyView.on('view:property:click', @handlePropertyClick, @)
     @$('#properties').append(propertyView.render().el)
+
+  handlePropertyClick: (propertyId) ->
+    @trigger("view:properties_list:click", propertyId)
 
 class Hf.Views.PropertyPaginationView extends Backbone.View
 
@@ -124,6 +153,8 @@ class Hf.Views.PropertyPaginationView extends Backbone.View
       '</ul>' +
     '</div>'
     
+  events:
+    "click a": "doPagination"
   
   initialize: (options)->
     @collection.on('reset', @render, @)
@@ -137,7 +168,8 @@ class Hf.Views.PropertyPaginationView extends Backbone.View
       @setVariables(@collection.meta)
       @$el.html(@template)
       
-      if @currentPage == 1
+      if @currentPage <= 1
+        @currentPage = 1
         @$('li#prev').addClass('disabled')
 
       if @currentPage == @totalPages
@@ -153,6 +185,23 @@ class Hf.Views.PropertyPaginationView extends Backbone.View
       
     return this
 
+  doPagination: (e) ->
+    if e
+      e.preventDefault()
+      e.stopPropagation()
+    
+    element = e.target
+    unless $(element).hasClass('disabled') or $(element).parent().hasClass('disabled')
+      page = null
+      elementText = $(element).text()
+      switch elementText
+        when "Prev" then page = @currentPage - 1
+        when "Next" then page = @currentPage + 1
+        else 
+          if parseInt(elementText) > 0 then page = parseInt(elementText)
+      
+      @trigger('paginate', page)
+  
   setVariables: (metaData) ->
     @totalPages = metaData.totalPages || 0
     @currentPage = metaData.currentPage || 0
@@ -249,6 +298,10 @@ class Hf.Views.PropertiesView extends Backbone.View
     )
 
     @propertiesListView = new Hf.Views.PropertiesListView(collection: @collection)
+    @propertiesListView.on("view:properties_list:click", @handlePropertyClick, @)
+
+  handlePropertyClick: (propertyId) =>
+    @trigger('view:properties:click', propertyId)
     
   render: ->
     @$el.html(@template)
