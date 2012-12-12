@@ -80,10 +80,17 @@ class Hf.Views.PropertiesListView extends Backbone.View
   initialize: (options) ->
     if @collection?
       @collection.on('reset', @addAll, @)
+      @collection.on('prefetch', @showSpinner, @)
       
   render: ->
-    @addAll()
     return this
+    
+  showSpinner: (e) ->
+    if e
+      e.preventDefault()
+      e.stopPropagation()
+    
+    @$el.html("Searching...")
     
   addAll: ->
     @$el.html("")
@@ -132,6 +139,7 @@ class Hf.Views.PropertySearchView extends Backbone.View
     min = @$('#min').val()
     max = @$('#max').val()
     
+    @collection.trigger('prefetch')
     @collection.fetch
       data:
         zip: zip
@@ -142,7 +150,7 @@ class Hf.Views.PropertiesView extends Backbone.View
   
   template: 
     "<div id='search'></div>" +
-    "<div id='meta'></div>" +
+    "<div id='meta'></div>" + #what should I put here?
     "<div id='properties'></div>"
   
   initialize: (options) ->
