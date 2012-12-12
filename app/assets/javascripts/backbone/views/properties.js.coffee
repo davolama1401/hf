@@ -1,58 +1,82 @@
-class Hf.Views.PropertySearchMetaView extends Backbone.View
-  template:
-    '<p>Total matches: <%= totalMatched %></p>'
-    {"meta"=>
-      {"totalMatched"=>100,
-       "totalPages"=>5,
-       "currentPage"=>1,
-       "facets"=>
-        {"searchByType"=>
-          {"1"=>
-            {"id"=>1,
-             "name"=>"All Homes for Sale",
-             "count"=>100,
-             "isSelected"=>false},
-           "3"=>
-            {"id"=>3,
-             "name"=>"Agent & Broker Listings",
-             "count"=>74,
-             "isSelected"=>false},
-           "4"=>
-            {"id"=>4,
-             "name"=>"Owner & Classifieds",
-             "count"=>1,
-             "isSelected"=>false},
-           "5"=>
-            {"id"=>5, "name"=>"Foreclosures", "count"=>25, "isSelected"=>false}},
-         "city"=>[{"name"=>"Chicago", "count"=>100, "isSelected"=>false}],
-         "neighborhood"=>
-          [{"name"=>"Lakeview", "count"=>93, "isSelected"=>false},
-           {"name"=>"Roscoe Village", "count"=>4, "isSelected"=>false},
-           {"name"=>"DePaul", "count"=>1, "isSelected"=>false},
-           {"name"=>"Near North Side", "count"=>1, "isSelected"=>false},
-           {"name"=>"North Center", "count"=>1, "isSelected"=>false}],
-         "county"=>[{"name"=>"Cook", "count"=>100, "isSelected"=>false}],
-         "zip"=>[{"name"=>"60657", "count"=>100, "isSelected"=>false}]},
-       "area"=>
-        {"cities"=>["Chicago"],
-         "state"=>"IL",
-         "county"=>"Cook",
-         "type"=>"zip",
-         "name"=>"60657",
-         "listingsCount"=>100,
-         "latitude"=>0,
-         "longitude"=>0,
-         "url"=>
-          "http://www.homefinder.com/zip-code/60657/min_price_350000/max_price_450000/"},
-       "searchResultsUrl"=>
-        "http://www.homefinder.com/zip-code/60657/min_price_350000/max_price_450000/",
-       "executionTime"=>0.14519095420837},
-
 class Hf.Views.PropertyView extends Backbone.View
-  render: ->
-    return this
+  className: "hero-unit"
+  addressTemplate:
+    "<%= address.line1 %> <br />" +
+    "<%= address.city %>, <%= address.state %> <%= address.zip %>  <br />"
+
+  photoTemplate: 
+    '<div class="item">' +
+      '<img src="<%= url %>" class="img-polaroid">' +
+    '</div>'
+
+  noPhotosTemplate:
+    "No photos available"
+
+  photosTemplate:
+    '<div id="myCarousel<%= id%>" class="carousel slide" data-pause="hover">' +
+      '<div id="photos_container" class="carousel-inner">' +
+      '</div>' +
+      '<a class="left carousel-control" href="#myCarousel<%= id%>" data-slide="prev">‹</a>' +
+      '<a class="right carousel-control" href="#myCarousel<%= id%>" data-slide="next">›</a>' +
+    '</div>'
+
+  descriptionTemplate:
+    "<%= description %>"
   
+  descriptionTemplate:
+    "<%= description %>"
+  
+  mainTemplate:
+    '<div class="row-fluid">' +
+      "<div id='photos' class='span2'></div>" +
+      "<div id='address' class='span10'></div>" +
+    '</div>' +
+    '<div class="row-fluid">' +
+      "<div id='price'></div>" +
+    '</div>' +
+    '<div class="row-fluid">' +
+      "<div id='description'></div>" +
+    '</div>'
+
+  render: ->
+    @$el.html(@mainTemplate)
+    
+    modelJSON = @model.toJSON()
+    @renderPhotos(modelJSON)
+    @renderAddress(modelJSON)
+    @renderPrice(modelJSON)
+    @renderDescription(modelJSON)
+
+    return this
+
+  renderPhotos: (modelJSON)->
+    if modelJSON.photos?
+      @$('#photos').html(_.template(@photosTemplate, modelJSON))
+      i = 0
+      while i < modelJSON.photos.length
+        @$('#photos_container').append(_.template(@photoTemplate, modelJSON.photos[i]))
+        @$('.item').addClass('active') if i == 0
+        i++
+    else
+      @$('#photos').html(@noPhotosTemplate)
+
+  renderAddress: (modelJSON)->
+    @$('#address').html(_.template(@addressTemplate, modelJSON))
+  
+  renderPrice: (modelJSON)->
+    @$('#price').append(modelJSON.price) if modelJSON.price?
+  
+  renderDescription: (modelJSON)->
+    @$('#description').append(modelJSON.description) if modelJSON.description?
+    
+    
 class Hf.Views.PropertiesListView extends Backbone.View
+  resultsTemplate: "<div id='properties-left' class='span1'></div>" +
+    "<div id='properties' class='span10'></div>" +
+    "<div id='properties-right' class='span1'></div>"
+
+  emptyTemplate: "<div>No properties found</div>"
+  
   initialize: (options) ->
     if @collection?
       @collection.on('reset', @addAll, @)
@@ -64,11 +88,14 @@ class Hf.Views.PropertiesListView extends Backbone.View
   addAll: ->
     @$el.html("")
     if @collection? and @collection.length > 0
-      @collection.forEach(@addOne, this)
+      @$el.append(@resultsTemplate)
+      @collection.forEach(@addOne, @)
+    else
+      @$el.append(@emptyTemplate)
 
   addOne: (property) ->
     propertyView = new Hf.Views.PropertyView(model: property)
-    @$el.append(propertyView.render().el)
+    @$('#properties').append(propertyView.render().el)
 
 class Hf.Views.PropertySearchView extends Backbone.View
   template:
@@ -105,7 +132,6 @@ class Hf.Views.PropertySearchView extends Backbone.View
     min = @$('#min').val()
     max = @$('#max').val()
     
-    alert("zip: #{zip}, min: #{min}, max: #{max}")
     @collection.fetch
       data:
         zip: zip

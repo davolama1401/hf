@@ -9,5 +9,5 @@ class Hf.Collections.PropertiesCollection extends Backbone.Collection
     if !data
       @meta = null
       return []
-    @meta = data.meta
-    return data.properties
+    @meta = data.data.meta
+    return data.data.listings

@@ -1,1793 +1,820 @@
-{"data"=>
-  {"meta"=>
-    {"totalMatched"=>100,
-     "totalPages"=>5,
-     "currentPage"=>1,
-     "facets"=>
-      {"searchByType"=>
-        {"1"=>
-          {"id"=>1,
-           "name"=>"All Homes for Sale",
-           "count"=>100,
-           "isSelected"=>false},
-         "3"=>
-          {"id"=>3,
-           "name"=>"Agent & Broker Listings",
-           "count"=>74,
-           "isSelected"=>false},
-         "4"=>
-          {"id"=>4,
-           "name"=>"Owner & Classifieds",
-           "count"=>1,
-           "isSelected"=>false},
-         "5"=>
-          {"id"=>5, "name"=>"Foreclosures", "count"=>25, "isSelected"=>false}},
-       "city"=>[{"name"=>"Chicago", "count"=>100, "isSelected"=>false}],
-       "neighborhood"=>
-        [{"name"=>"Lakeview", "count"=>93, "isSelected"=>false},
-         {"name"=>"Roscoe Village", "count"=>4, "isSelected"=>false},
-         {"name"=>"DePaul", "count"=>1, "isSelected"=>false},
-         {"name"=>"Near North Side", "count"=>1, "isSelected"=>false},
-         {"name"=>"North Center", "count"=>1, "isSelected"=>false}],
-       "county"=>[{"name"=>"Cook", "count"=>100, "isSelected"=>false}],
-       "zip"=>[{"name"=>"60657", "count"=>100, "isSelected"=>false}]},
-     "area"=>
-      {"cities"=>["Chicago"],
-       "state"=>"IL",
-       "county"=>"Cook",
-       "type"=>"zip",
-       "name"=>"60657",
-       "listingsCount"=>100,
-       "latitude"=>0,
-       "longitude"=>0,
-       "url"=>
-        "http://www.homefinder.com/zip-code/60657/min_price_350000/max_price_450000/"},
-     "searchResultsUrl"=>
-      "http://www.homefinder.com/zip-code/60657/min_price_350000/max_price_450000/",
-     "executionTime"=>0.14519095420837},
-   "listings"=>
-    [{"agent"=>
-       {"parentPartyId"=>1903138,
-        "type"=>"agent",
-        "name"=>"Stephanie Cutter",
-        "email"=>"stephanie.cutter@cbexchange.com",
-        "phone"=>"8555461609",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/1903347d_Stephanie_Cutter/",
-        "isEnhanced"=>true,
-        "id"=>"1903347"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Coldwell Banker Residential",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3679757/367975714.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/1903138d_Coldwell_Banker_Residential/",
-        "isEnhanced"=>false,
-        "id"=>"1903138"},
-      "alertUpdateDate"=>"2012-11-07T15:44:08Z",
-      "createDate"=>"2012-10-26T05:00:00Z",
-      "updateDate"=>"2012-11-14T21:35:04Z",
-      "mlsId"=>"08207433",
-      "description"=>
-       "End unit townhome with rare private, fenced-in yard and a terrace on a corner lot! This home has been carefully maintained and updated and has a great floorplan! Main level has living room and a dining room open to the kitchen and terrace. Three bedrooms upstairs and a full finished basement with a family room, office area and full bath! Updates include heated floors in bathrooms, some new windows, new hardwood floors, new w/d, landscaping, new fence. Parking space included. No assessments!",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing.",
-        "url"=>
-         "http://www.coldwellbankeronline.com/property/details/2875312/MLS-08207433/2857-North-Greenview-Avenue-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"},
-      "price"=>449900,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808238/404119444.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808246/404123377.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808237/404118667.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808230/404115129.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808238/404119060.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808231/404115930.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808232/404116298.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808230/404115331.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808233/404116734.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808231/404115795.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808239/404119672.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808229/404114631.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/810774/405387445.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/810781/405390715.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours33.vht.com/CBI/T390564256",
-      "geocodedPropertyId"=>"5c0cb23269243f12febd2e9d7549984d",
-      "id"=>"90973780",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/90973780d_2857_North_Greenview_Avenue",
-      "address"=>
-       {"line1"=>"2857 North Greenview Avenue",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.934132,
-        "longitude"=>-87.665808},
-      "type"=>"Condominium Unit",
-      "bed"=>3,
-      "bath"=>{"total"=>"3", "full"=>2, "half"=>1},
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"USREALGNRT Coldwell Banker NRT National",
-        "isEnhanced"=>false,
-        "id"=>"2385138"},
-      "identifiers"=>{"homeFinderListingKey"=>"90973780"}},
-     {"agent"=>
-       {"parentPartyId"=>945861,
-        "type"=>"agent",
-        "name"=>"Thomas Moran",
-        "email"=>"tmoran@Rubloff.com",
-        "phone"=>"8778389743",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/4230889d_Thomas_Moran/",
-        "isEnhanced"=>true,
-        "id"=>"4230889"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Prudential Rubloff",
-        "email"=>"contactus@Rubloff.com",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/9/4/5/945861/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/945861d_Prudential_Rubloff/",
-        "promoText"=>"One Magnificent Life",
-        "isEnhanced"=>true,
-        "id"=>"945861"},
-      "alertUpdateDate"=>"2012-10-12T01:17:06Z",
-      "createDate"=>"2012-10-05T05:00:00Z",
-      "updateDate"=>"2012-12-05T18:33:05Z",
-      "mlsId"=>"08173186",
-      "description"=>
-       "STUNNING LIGHT-FILLED DUPLEX-UP W/ EXQUISITE HIGH END FINISHES. REAR UNIT=NO SOUTHPORT EXPOSURE OR NOISE, KIT, DIN & GREAT RM OPEN ONTO A SPRAWLING DECK. 9'6\" CEILS. HDWD FLRS THRUOUT. 42\"CHERRYCAB, SS APPLS/ SUBZERO, BOSCH, THERMADOR. GRANITE CNTRS W/ FULL GRANITE BACKSPLASH. MARBLE BATHS, JACUZZI, DBL VANITY. W/D, FPLC, CROWN MOLDING THRUOUT. CUSTOM SPEAKERS THRUOUT. CUSTOM WINDOW TRMTS. GARAGE PKG INCLD.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>"http://www.rubloff.com/property/chicago/08173186.cfm"},
-      "price"=>449900,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801239/400619770.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801233/400616979.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801237/400618802.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801238/400619446.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801235/400617690.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801234/400617144.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801235/400617778.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801242/400621470.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801235/400617877.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/801239/400619731.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours33.vht.com/PPI/T390504439/nobranding",
-      "geocodedPropertyId"=>"b45d75d21c8367e280dbdabccc73d5be",
-      "id"=>"90420832",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/90420832d_3530_North_Southport_Avenue",
-      "address"=>
-       {"line1"=>"3530 North Southport Avenue",
-        "line2"=>"2C",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.946137,
-        "longitude"=>-87.664332},
-      "type"=>"Duplex",
-      "bed"=>2,
-      "bath"=>{"total"=>"3", "full"=>2, "half"=>1},
-      "yearBuilt"=>2002,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"90420832"}},
-     {"agent"=>
-       {"parentPartyId"=>1903181,
-        "type"=>"agent",
-        "name"=>"Chaz Walters",
-        "email"=>"chaz@chazwalters.com",
-        "phone"=>"8552872843",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/543318d_Chaz_Walters/",
-        "promoText"=>"Keeping it Hot! Hot Property!!",
-        "isEnhanced"=>true,
-        "id"=>"543318"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Coldwell Banker Residential Brokerage Lake View",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/4012267/401226763.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/1903181d_Coldwell_Banker_Residential_Brokerage_Lake_View/",
-        "isEnhanced"=>false,
-        "id"=>"1903181"},
-      "alertUpdateDate"=>"2012-11-14T21:23:02Z",
-      "createDate"=>"2012-08-29T05:00:00Z",
-      "updateDate"=>"2012-11-14T21:23:02Z",
-      "priceReducedDate"=>"2012-09-22T05:00:00Z",
-      "mlsId"=>"08147035",
-      "description"=>
-       "Exquisite 1800sf extra-wide condo on lovely tree-lined street in Lakeview! Spacious open living/dining rooms offer multiple seating areas. Cherry floors w/maple inlay, gorgeous trim thru-out, recessed lighting, FP, island kitchen w/granite tops, full-height backsplash & updated SS appliances. MA bedroom w/huge bath & spa shower. Lovely covered, front terrace & rear balconies w/gas hookup. 1 parking space included!",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing.",
-        "url"=>
-         "http://www.coldwellbankeronline.com/property/details/2806971/MLS-08147035/818-West-Aldine-Avenue-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"},
-      "price"=>449850,
-      "priceReducedAmount"=>"50",
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787569/393784583.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787577/393788858.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787585/393792657.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787570/393785179.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787578/393789315.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787572/393786384.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787579/393789531.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787581/393790804.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787585/393792628.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787585/393792802.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787582/393791050.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787577/393788740.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787575/393787645.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787584/393792335.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787575/393787680.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/787584/393792368.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours31.vht.com/CBI/T50927400",
-      "geocodedPropertyId"=>"97a44aa2a334f22354ff71871813f529",
-      "id"=>"89291637",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/89291637d_818_West_Aldine_Avenue",
-      "address"=>
-       {"line1"=>"818 West Aldine Avenue",
-        "line2"=>"3",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.942055,
-        "longitude"=>-87.650127},
-      "type"=>"Condominium Unit",
-      "bed"=>2,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>2004,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"USREALGNRT Coldwell Banker NRT National",
-        "isEnhanced"=>false,
-        "id"=>"2385138"},
-      "identifiers"=>{"homeFinderListingKey"=>"89291637"}},
-     {"agent"=>
-       {"parentPartyId"=>861163,
-        "type"=>"agent",
-        "name"=>"Sharon Gillman",
-        "email"=>"sharon.gillman@bairdwarner.com",
-        "phone"=>"8886838234",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/1687681d_Sharon_Gillman/",
-        "isEnhanced"=>true,
-        "id"=>"1687681"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Baird & Warner Gold Coast",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/8/6/1/861163/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/861163d_Baird_-and-_Warner_Gold_Coast/",
-        "promoText"=>"Chicagoland's favorite way home since 1855.",
-        "isEnhanced"=>true,
-        "id"=>"861163"},
-      "alertUpdateDate"=>"2012-11-29T10:46:13Z",
-      "createDate"=>"2012-11-09T06:00:00Z",
-      "updateDate"=>"2012-12-05T18:23:04Z",
-      "mlsId"=>"08215867",
-      "description"=>
-       "Rarely available 4 br/3 bath SE corner apt. with approx 2,100 sf! Gorgeous, forever views of Lake, park, and city from east and south-facing wall of windows, plus 2 large balconies! Perfect family home with split bedrm floor plan, huge liv rm, lg entry foyer, lots of closets, white kit. Move-in condition, new carpeting, just painted. Steps from LincPk, harbor, historic mansions, buses. Dogs under 35lbs allowed!",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>
-         "http://listings.listhub.net/pages/BAIRDWARNER/08215867/?channel=homescape"},
-      "price"=>449500,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/812306/406153382.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814154/407077262.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814176/407088356.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814152/407076169.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814154/407077106.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814184/407092174.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814151/407075549.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814150/407075103.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814150/407075109.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/814152/407076190.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours33.vht.com/BWI/T390596907/nobranding",
-      "id"=>"91305298",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/91305298d_339_W_Barry_Avenue",
-      "address"=>
-       {"line1"=>"339 W. Barry Avenue",
-        "line2"=>"Unit 25C",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.937932,
-        "longitude"=>-87.638101},
-      "type"=>"Condominium Unit",
-      "bed"=>4,
-      "bath"=>{"total"=>"3", "full"=>3},
-      "squareFootage"=>2100,
-      "yearBuilt"=>1963,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"HF3W_BW Baird & Warner Broker via Listhub",
-        "isEnhanced"=>false,
-        "id"=>"4645382"},
-      "identifiers"=>{"homeFinderListingKey"=>"91305298"}},
-     {"agent"=>
-       {"parentPartyId"=>323011,
-        "type"=>"agent",
-        "name"=>"Christy Starks",
-        "email"=>"christystarks1@aol.com",
-        "phone"=>"8552645056",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/360885d_Christy_Starks/",
-        "isEnhanced"=>true,
-        "id"=>"360885"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Property Consultants Realty, Inc.",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/1231594/123159440.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/323011d_Property_Consultants_Realty_Inc/",
-        "isEnhanced"=>false,
-        "id"=>"323011"},
-      "alertUpdateDate"=>"2012-11-20T21:17:18Z",
-      "createDate"=>"2012-11-20T06:00:00Z",
-      "updateDate"=>"2012-11-26T06:18:02Z",
-      "mlsId"=>"08222281",
-      "description"=>
-       "Well maintained 2 unit building on standard lot. First floor apartment is 3BR and upper level is 2BR. Both have large separate living room and dining rooms. Excellent location near Hamlin Park and Roscoe Village.  Value is in land.",
-      "price"=>449000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815847/407923989.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815849/407924986.JPG"}],
-      "geocodedPropertyId"=>"91dc3eab9ae6465ec4a5164bd779c9e5",
-      "id"=>"91584214",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/91584214d_1912_West_George_St",
-      "address"=>
-       {"line1"=>"1912 West George St.",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Roscoe Village",
-        "latitude"=>41.934393,
-        "longitude"=>-87.676407},
-      "type"=>"Multi-Family Home",
-      "bed"=>5,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"91584214"}},
-     {"agent"=>
-       {"parentPartyId"=>1330268,
-        "type"=>"agent",
-        "name"=>"Eric Rojas",
-        "email"=>"erojas@rubloff.com",
-        "phone"=>"8883512148",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/1820648d_Eric_Rojas/",
-        "isEnhanced"=>true,
-        "id"=>"1820648"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Kale Realty",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/1330268d_Kale_Realty/",
-        "isEnhanced"=>false,
-        "id"=>"1330268"},
-      "alertUpdateDate"=>"2012-11-22T07:44:32Z",
-      "createDate"=>"2012-11-16T06:00:00Z",
-      "updateDate"=>"2012-12-08T19:42:06Z",
-      "mlsId"=>"08220839",
-      "description"=>
-       "Create your dream home in prime East Lakeview location on West Briar Place. HUGE south facing apprx 4000 sq/ft duplex condo w/ deeded parking slab ($30K fits 2-3 cars). 4 unit building, 100% owners. 3000+ sq/ft main floor 4 beds, two baths, BIG front terrace. Lower level w/ kit+bath perfect for au pair/ nanny, family room, bedrooms. Steps to lake, express bus downtown. Nettlehorst School. 3 guest parking on site!",
-      "price"=>449000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/814758/407379018.JPG"},
-      "id"=>"91494791",
-      "url"=>"http://www.homefinder.com/IL/Chicago/91494791d",
-      "address"=>
-       {"city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.938918,
-        "longitude"=>-87.640258},
-      "type"=>"Duplex",
-      "bed"=>5,
-      "bath"=>{"total"=>"3", "full"=>3},
-      "yearBuilt"=>1918,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"91494791"}},
-     {"agent"=>
-       {"parentPartyId"=>322918,
-        "type"=>"agent",
-        "name"=>"Nancy Donley",
-        "listingsUrl"=>"http://www.homefinder.com/agent/332067d_Nancy_Donley/",
-        "isEnhanced"=>false,
-        "id"=>"332067"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Koenig & Strey",
-        "email"=>"LPEastmarketing@koenigstrey.com",
-        "phone"=>"8773318688",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/3/2/2/322918/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/322918d_Koenig_-and-_Strey/",
-        "promoText"=>"Buy now. Ask us why. koenigstrey.com",
-        "isEnhanced"=>true,
-        "id"=>"322918"},
-      "alertUpdateDate"=>"2012-10-28T06:36:06Z",
-      "createDate"=>"2012-10-26T05:00:00Z",
-      "updateDate"=>"2012-12-08T19:51:03Z",
-      "mlsId"=>"08208081",
-      "description"=>
-       "Exquisitely detailed construction throughout this elegant 2 bedroom, 2 bath penthouse unit including individually crafted tray ceilings, ornate moldings, custom cherry kitchen with Bosch, SubZero & Viking appliances, Brazilian cherry floors and whole house audio system. marble baths. Master suite has huge walk-in closet, bath with double vanities, whirlpool & separate steam shower. 50x16 private roof deck, storage & garage round out this superb package. For more information on this property, contact the listing agent, Nancy Donley at (773) 419-#### or ndonley@koenigstrey. com.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>"http://3547NWilton4N.com"},
-      "price"=>449000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808462/404231441.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808460/404230471.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808465/404232802.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808469/404234598.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808469/404234645.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808465/404232933.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808464/404232437.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808464/404232473.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808468/404234229.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808468/404234270.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours33.vht.com/KSI/T390518406/nobranding",
-      "geocodedPropertyId"=>"8d137ac53b1a8f41c3244921cdaaa475",
-      "id"=>"90972552",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/90972552d_3547_North_Wilton_Avenue",
-      "address"=>
-       {"line1"=>"3547 North Wilton Avenue",
-        "line2"=>"4N",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.946767,
-        "longitude"=>-87.653086},
-      "type"=>"Condominium Unit",
-      "bed"=>2,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>2006,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"90972552"}},
-     {"agent"=>
-       {"parentPartyId"=>322915,
-        "type"=>"agent",
-        "name"=>"Boris Carrazana",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/4758566d_Boris_Carrazana/",
-        "isEnhanced"=>false,
-        "id"=>"4758566"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Jameson Sotheby International Realty",
-        "email"=>"info@jameson.com",
-        "phone"=>"8883669470",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/3/2/2/322915/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/322915d_Jameson_Sotheby_International_Realty/",
-        "isEnhanced"=>true,
-        "id"=>"322915"},
-      "alertUpdateDate"=>"2012-10-20T07:35:27Z",
-      "createDate"=>"2012-10-14T05:00:00Z",
-      "updateDate"=>"2012-12-05T18:23:17Z",
-      "mlsId"=>"08179526",
-      "description"=>
-       "Amazing 1st time investor/live-in opportunity to own turn-key operation in Lakeview. Building generating $3850 per month in revenue. All units are in great condition with NEW ELECTRIC and PLUMBING through-out. Top floor duplex has newer kitchen, baths, floors, paint and mechanical systems. Building has new roof, windows, & wash/dryer. Tenants pay separate utilities. UNITS IN THIS LOCATION RENT FAST. WALKSCORE = 95%!",
-      "price"=>445000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804540/402270269.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804543/402271823.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804541/402270658.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804543/402271861.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804541/402270789.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804551/402275609.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804545/402272543.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804541/402270986.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804539/402269931.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804540/402270409.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804553/402276813.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804555/402277968.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804553/402276864.JPG"}],
-      "geocodedPropertyId"=>"83560eedee075759cf1cb989e03d2cce",
-      "id"=>"90679245",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/90679245d_3246_North_Wilton_St",
-      "address"=>
-       {"line1"=>"3246 North Wilton St.",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.941354,
-        "longitude"=>-87.653147},
-      "type"=>"Multi-Family Home",
-      "bed"=>4,
-      "yearBuilt"=>1889,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"90679245"}},
-     {"agent"=>
-       {"parentPartyId"=>546781,
-        "type"=>"agent",
-        "name"=>"Allan Friestad",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/4393829d_Allan_Friestad/",
-        "isEnhanced"=>false,
-        "id"=>"4393829"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"ZipRealty, Inc. - Chicago",
-        "email"=>"team@ziprealty.com",
-        "phone"=>"8776862123",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/5/4/6/546781/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/546781d_ZipRealty_Inc_-_Chicago/",
-        "isEnhanced"=>true,
-        "id"=>"546781"},
-      "alertUpdateDate"=>"2012-12-10T13:15:05Z",
-      "createDate"=>"2011-11-15T06:00:00Z",
-      "updateDate"=>"2012-12-10T13:15:05Z",
-      "priceReducedDate"=>"2012-12-10T06:00:00Z",
-      "mlsId"=>"07943885-MLSNI",
-      "description"=>
-       "Wrigleyville &amp; Southport Corridor Area!! Great 3 Bdrm/2. 1 Baths in this beautiful townhouse w/2decks in the Wrigleyville area. Townhouse has a deck off the kitchen which is great for grilling,a deck off the Master Bedroom. Kitchen has Stainless Steel App. There is 1 Fireplace,a Washer/Dryer in the unit. Southport Corridor, and much more. PRICE INCLUDES 2ND GARAGE, GREAT FOR THE AREA",
-      "price"=>445000,
-      "priceReducedAmount"=>"4900",
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372191.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372163.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372138.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372164.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372112.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372232.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372139.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372140.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372083.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372141.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372082.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.34/698744/349372162.JPG"}],
-      "geocodedPropertyId"=>"f06a181078b71357c0bd1f292fc6a888",
-      "id"=>"81356718",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/81356718d_1157_W_Newport_Avenue_H",
-      "address"=>
-       {"line1"=>"1157 W. Newport Avenue #H",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.944159,
-        "longitude"=>-87.65876},
-      "type"=>"Townhouse/Townhome",
-      "bed"=>3,
-      "bath"=>{"total"=>"3", "full"=>2, "half"=>1},
-      "yearBuilt"=>1998,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"USZIPREAL ZipRealty National Feed",
-        "isEnhanced"=>false,
-        "id"=>"1858118"},
-      "identifiers"=>{"homeFinderListingKey"=>"81356718"}},
-     {"agent"=>
-       {"parentPartyId"=>3517167,
-        "type"=>"agent",
-        "name"=>"Andrew Herrmann",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/3867261d_Andrew_Herrmann/",
-        "isEnhanced"=>false,
-        "id"=>"3867261"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"@properties",
-        "email"=>"tribuneleads@atproperties.com",
-        "phone"=>"8777907862",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/3/5/1/7/3517167/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/broker/3517167d_properties/",
-        "isEnhanced"=>true,
-        "id"=>"3517167"},
-      "alertUpdateDate"=>"2012-11-18T01:33:44Z",
-      "createDate"=>"2012-11-17T06:00:00Z",
-      "updateDate"=>"2012-12-10T06:11:06Z",
-      "mlsId"=>"08221416",
-      "description"=>
-       "Gorgeous and highly upgraded simplex in the Southport Corridor. Unique & Cool intimate 3 unit building featuring Cherry/Granite & SS Kitchen with thermador double oven. Hardwood floors throughout, crown mouldings, heated bathroom floors, steam shower, jacuzzi tub, large master walk-in closet, deck, garage parking & sep storage. 100% owner occupied. Close to Public Transportation. Enjoy the location.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>"http://www.tinyatp.com/08221416-3340-N-Southport-2/GLE"},
-      "price"=>435000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815082/407541165.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815085/407542842.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815085/407542885.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815083/407541924.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815089/407544557.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815088/407544078.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815083/407541537.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815087/407543602.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours33.vht.com/API/T390585182/nobranding",
-      "geocodedPropertyId"=>"673ded3484348aa5ac72e556bdf0e7f4",
-      "id"=>"91527151",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/91527151d_3340_North_Southport_Avenue",
-      "address"=>
-       {"line1"=>"3340 North Southport Avenue",
-        "line2"=>"2",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.942814,
-        "longitude"=>-87.664232},
-      "type"=>"Condominium Unit",
-      "bed"=>2,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>2001,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"91527151"}},
-     {"agent"=>
-       {"parentPartyId"=>566268,
-        "type"=>"agent",
-        "name"=>"Eric Marcus",
-        "email"=>"esmarcus@sbcglobal.net",
-        "phone"=>"8555700812",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/567029d_Eric_Marcus/",
-        "promoText"=>"Visit our website for property videos and virtual tours",
-        "isEnhanced"=>true,
-        "id"=>"567029"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Eric Marcus Real Estate Group",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3294227/329422715.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/566268d_Eric_Marcus_Real_Estate_Group/",
-        "isEnhanced"=>false,
-        "id"=>"566268"},
-      "alertUpdateDate"=>"2012-11-26T19:10:02Z",
-      "createDate"=>"2012-08-24T05:00:00Z",
-      "updateDate"=>"2012-11-30T08:33:19Z",
-      "priceReducedDate"=>"2012-11-26T06:00:00Z",
-      "mlsId"=>"08143806",
-      "description"=>
-       "WALK TO IT ALL FROM THIS BRIGHT & SOPHISTICATED FEE SIMPLE 1800+ SQFT 3BD/2BA LAKEVIEW END-UNIT ROWHOME THAT LIVES LIKE A SFH. COMPLETELY RENOVATED KITCHEN, GORGEOUS DINING ROOM BUILT-IN, ALL NEW APPLIANCES, CUSTOM CABINETRY. 2 BEDS UPSTAIRS AND GUEST BED ON 1ST FLOOR. ATTACHED GARAGE PARKING. NETTELHORST ELEMENTARY! WALK TO WRIGLEY, SOUTHPORT, RED/BROWN LINE. ALMOST TOO MANY CHOICES FOR RESTAURANTS AND COFFEE!",
-      "price"=>425000,
-      "priceReducedAmount"=>"14000",
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>true,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786027/393013967.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786033/393016599.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786033/393016683.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786032/393016125.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786027/393013712.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786028/393014355.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786034/393017478.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786027/393013853.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786033/393016962.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786031/393015756.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786031/393015867.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786029/393014662.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786025/393012886.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786033/393016532.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786033/393016557.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/786033/393016571.JPG"}],
-      "siteVirtualTourUrl"=>
-       "http://www.smartfloorplan.com/il/v322200/player.pl",
-      "id"=>"89170785",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/89170785d_1151_West_Eddy_St",
-      "address"=>
-       {"line1"=>"1151 West Eddy St.",
-        "line2"=>"E",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.94602,
-        "longitude"=>-87.657752},
-      "type"=>"Townhouse/Townhome",
-      "bed"=>3,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>1994,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"89170785"}},
-     {"agent"=>
-       {"parentPartyId"=>945865,
-        "type"=>"agent",
-        "name"=>"Mario Greco",
-        "email"=>"mgreco@rubloff.com",
-        "phone"=>"8666035923",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/945926d_Mario_Greco/",
-        "isEnhanced"=>true,
-        "id"=>"945926"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Prudential Rubloff",
-        "email"=>"contactus@Rubloff.com",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/9/4/5/945865/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/945865d_Prudential_Rubloff/",
-        "promoText"=>"One Magnificent Life",
-        "isEnhanced"=>true,
-        "id"=>"945865"},
-      "alertUpdateDate"=>"2012-11-15T08:48:05Z",
-      "createDate"=>"2012-11-12T06:00:00Z",
-      "updateDate"=>"2012-12-05T18:33:13Z",
-      "mlsId"=>"08218175",
-      "description"=>
-       "WALK TO IT ALL INCL PUB TRANS & STEPS TO LINCOLN & SOUTHPORT FROM THIS 2100+ SQFT RECENTLY RENOV 3BD+FAM RM/2BA XTRA-WDE (19' INTERIOR) PENTHOUSE DUPLX ON PREMIER/QUIET ST IN RARE 2-UNIT BLDG;RARE MSTR & 2ND BDRM ON SAME LVL;HRDWD FLRS & MASSIVE CLST SPACE T/O;LUXE EAT-IN GRNTE/MPLE/SS ISLND KTCHN W/BRKFST BAR OPENS LARGE LR & SEP DIN AREA;2 LARGE PRIVS DECK OFF OF EACH LVL;LUXE STONE BTHS;IN-UNIT W/D;GRGE PRKG INCL!",
-      "price"=>424500,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813717/406858556.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813720/406860134.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813719/406859690.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813718/406859291.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813716/406858337.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813716/406858381.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813717/406858913.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813719/406859883.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813718/406859451.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813714/406857044.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813713/406856565.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813719/406859579.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813717/406858646.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813713/406856669.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813714/406857245.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/813716/406858223.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours33.vht.com/RRI/T390519109/nobranding",
-      "geocodedPropertyId"=>"16cb7a84bd62af446ec71531dd285cc1",
-      "id"=>"91375299",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/91375299d_1518_West_Oakdale_Avenue",
-      "address"=>
-       {"line1"=>"1518 West Oakdale Avenue",
-        "line2"=>"2",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.935428,
-        "longitude"=>-87.666876},
-      "type"=>"Duplex",
-      "bed"=>3,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>2000,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"91375299"}},
-     {"agent"=>
-       {"parentPartyId"=>2845318,
-        "type"=>"agent",
-        "name"=>"Jordan Shackelford",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/1779581d_Jordan_Shackelford/",
-        "isEnhanced"=>false,
-        "id"=>"1779581"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"@properties",
-        "email"=>"tribuneleads@atproperties.com",
-        "phone"=>"8882215842",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/2/8/4/5/2845318/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/broker/2845318d_properties/",
-        "isEnhanced"=>true,
-        "id"=>"2845318"},
-      "alertUpdateDate"=>"2012-08-04T09:54:16Z",
-      "createDate"=>"2012-08-03T05:00:00Z",
-      "updateDate"=>"2012-12-10T05:52:05Z",
-      "mlsId"=>"08128628",
-      "description"=>
-       "Huge loft like 4bd, 3ba condo in lincoln school district. Overlooking lincoln park with a glimpse of the lake! Full service building, pool tennis courts, 24 hr doorman, rental parking, fabulous location! Parking available for additional $175 per month.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>"http://www.tinyatp.com/08128628-340-W-Diversey-419/GLE"},
-      "price"=>424000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777639/388819809.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777645/388822989.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777653/388826564.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777666/388833161.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777652/388826020.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777669/388834884.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777676/388838252.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/777670/388835142.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours7.vht.com/API/T50538485/nobranding",
-      "geocodedPropertyId"=>"42da07cf5c177601c9f204eb3c4e1646",
-      "id"=>"88469685",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/88469685d_340_West_Diversey_Parkway",
-      "address"=>
-       {"line1"=>"340 West Diversey Parkway",
-        "line2"=>"419",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.933254,
-        "longitude"=>-87.638755},
-      "type"=>"Condominium Unit",
-      "bed"=>4,
-      "bath"=>{"total"=>"3", "full"=>3},
-      "yearBuilt"=>1953,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"88469685"}},
-     {"agent"=>
-       {"parentPartyId"=>566268,
-        "type"=>"agent",
-        "name"=>"Eric Marcus",
-        "email"=>"esmarcus@sbcglobal.net",
-        "phone"=>"8555700812",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/567029d_Eric_Marcus/",
-        "promoText"=>"Visit our website for property videos and virtual tours",
-        "isEnhanced"=>true,
-        "id"=>"567029"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Eric Marcus Real Estate Group",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3294227/329422715.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/566268d_Eric_Marcus_Real_Estate_Group/",
-        "isEnhanced"=>false,
-        "id"=>"566268"},
-      "alertUpdateDate"=>"2012-11-02T08:51:16Z",
-      "createDate"=>"2012-10-25T05:00:00Z",
-      "updateDate"=>"2012-12-08T19:28:09Z",
-      "mlsId"=>"08207651",
-      "description"=>
-       "Superb internal unit townhome in Lakeview's favorite gated complex! Main level has living room with fireplace and patio access, separate dining area and eat-in White/Stainless. Lower level has large family room (could be used as 3rd bed) and full bath. Master bedroom has wall of closets, large tub and separate shower. Huge in-unit storage. Garage parking included. Dog-friendly. Nettelhorst School District!",
-      "price"=>419900,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808462/404231412.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808460/404230443.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808466/404233322.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808466/404233375.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808469/404234626.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808469/404234670.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808464/404232423.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808461/404230725.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808468/404234211.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808468/404234256.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808462/404231467.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808460/404230351.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808461/404230942.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/808461/404230966.JPG"}],
-      "siteVirtualTourUrl"=>
-       "http://www.smartfloorplan.com/il/v324619/player.pl",
-      "geocodedPropertyId"=>"0f2e6cb9dbbe6e724e1534a9cdbd73bd",
-      "id"=>"90969066",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/90969066d_3321_North_Racine_Avenue",
-      "address"=>
-       {"line1"=>"3321 North Racine Avenue",
-        "line2"=>"B",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.942705,
-        "longitude"=>-87.65856},
-      "type"=>"Townhouse/Townhome",
-      "bed"=>3,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>1988,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"90969066"}},
-     {"agent"=>
-       {"parentPartyId"=>1903181,
-        "type"=>"agent",
-        "name"=>"Jill Saponaro",
-        "email"=>"jill.saponaro@cbexchange.com",
-        "phone"=>"8556480734",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/1903681d_Jill_Saponaro/",
-        "isEnhanced"=>true,
-        "id"=>"1903681"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Coldwell Banker Residential Brokerage Lake View",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/4012267/401226763.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/1903181d_Coldwell_Banker_Residential_Brokerage_Lake_View/",
-        "isEnhanced"=>false,
-        "id"=>"1903181"},
-      "alertUpdateDate"=>"2012-11-23T07:39:13Z",
-      "createDate"=>"2012-10-13T05:00:00Z",
-      "updateDate"=>"2012-11-23T07:39:13Z",
-      "priceReducedDate"=>"2012-11-23T06:00:00Z",
-      "mlsId"=>"08178968",
-      "description"=>
-       "Fabulous, extra wide, highly upgraded condo in the heart of Lakeview! Cherry floors and beautiful millwork. Large chefs kitchen with cherry cabinets,granite,Viking & Subzero appl & breakfast bar. Beautiful marble mba with double vanity, whirlpool, and sep steam shower & heated floor! WBFP, custom window treatments, parking, deck and additional storage. Flooded with light! Walk to everything. Quiet, tree-lined street",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing.",
-        "url"=>
-         "http://www.coldwellbankeronline.com/property/details/2862032/MLS-08178968/859-West-Buckingham-Place-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"},
-      "price"=>419000,
-      "priceReducedAmount"=>"10000",
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804437/402218527.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804451/402225961.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804452/402226425.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804443/402221710.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804473/402236609.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804444/402222258.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804444/402222417.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804456/402228347.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/804436/402218340.JPG"}],
-      "geocodedPropertyId"=>"24b7acd335bf2cb276a758f6042db569",
-      "id"=>"90659798",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/90659798d_859_West_Buckingham_Pl",
-      "address"=>
-       {"line1"=>"859 West Buckingham Pl.",
-        "line2"=>"3",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.942537,
-        "longitude"=>-87.651707},
-      "type"=>"Condominium Unit",
-      "bed"=>2,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>2005,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"USREALGNRT Coldwell Banker NRT National",
-        "isEnhanced"=>false,
-        "id"=>"2385138"},
-      "identifiers"=>{"homeFinderListingKey"=>"90659798"}},
-     {"agent"=>
-       {"parentPartyId"=>1903138,
-        "type"=>"agent",
-        "name"=>"David Stone",
-        "email"=>"david.stone@cbexchange.com",
-        "phone"=>"8555381635",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/1904515d_David_Stone/",
-        "isEnhanced"=>true,
-        "id"=>"1904515"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Coldwell Banker Residential",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/3679757/367975714.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/1903138d_Coldwell_Banker_Residential/",
-        "isEnhanced"=>false,
-        "id"=>"1903138"},
-      "alertUpdateDate"=>"2012-11-07T15:50:21Z",
-      "createDate"=>"2012-11-04T05:00:00Z",
-      "updateDate"=>"2012-11-30T09:05:16Z",
-      "mlsId"=>"08213400",
-      "description"=>
-       "ENORMOUS 2 BED / 2 BATH IN LSD. S MOST INTIMATE HI RISE! FANTASTIC LAKE, PARK AND CITY VIEWS FROM EVERY ROOM. 3 PVT. BALCONIES! SUNKEN LIVING ROOM, SEPARATE DINING RM. OPEN, EAT-IN GRANITE KITCHEN WITH LAKE/ HARBOR VIEWS. BEAUTIFUL STONE BATHS. HARDWOOD FLOORING THROUGHOUT. IN-UNIT LAUNDRY. ONLY 3 HOMES PER FLOOR. ROOF TOP POOL. 2 CAR GARAGE PARKING AVAILABLE. *note: taxes do not reflect any excemptions.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing.",
-        "url"=>
-         "http://www.coldwellbankeronline.com/property/details/2885566/MLS-08213400/3470-North-Lake-Shore-Drive-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"},
-      "price"=>419000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811072/405536264.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811068/405534129.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811062/405531440.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811063/405531548.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811063/405531639.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811063/405531725.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811075/405537882.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/811074/405537051.JPG"}],
-      "geocodedPropertyId"=>"e6f6b3bfe9622e2361259c20b609df81",
-      "id"=>"91216028",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/91216028d_3470_North_Lake_Shore_Dr",
-      "address"=>
-       {"line1"=>"3470 North Lake Shore Dr.",
-        "line2"=>"12A",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.945567,
-        "longitude"=>-87.642131},
-      "type"=>"Condominium Unit",
-      "bed"=>2,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "yearBuilt"=>1968,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"USREALGNRT Coldwell Banker NRT National",
-        "isEnhanced"=>false,
-        "id"=>"2385138"},
-      "identifiers"=>{"homeFinderListingKey"=>"91216028"}},
-     {"agent"=>
-       {"parentPartyId"=>323096,
-        "type"=>"agent",
-        "name"=>"Julie Sachs Capps",
-        "email"=>"jcapps@rubloff.com",
-        "phone"=>"8558450635",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/945920d_Julie_Sachs_Capps/",
-        "isEnhanced"=>true,
-        "id"=>"945920"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Prudential Rubloff",
-        "email"=>"contactus@Rubloff.com",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/3/2/3/323096/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/323096d_Prudential_Rubloff/",
-        "promoText"=>"One Magnificent Life",
-        "isEnhanced"=>true,
-        "id"=>"323096"},
-      "alertUpdateDate"=>"2012-08-21T07:47:03Z",
-      "createDate"=>"2012-07-26T05:00:00Z",
-      "updateDate"=>"2012-12-05T18:33:02Z",
-      "priceReducedDate"=>"2012-08-21T05:00:00Z",
-      "mlsId"=>"08122718",
-      "description"=>
-       "Lakeview/Roscoe Village 2 flat + inlaw. Units are quite large w/1-5 br, 1-3 br, 1-2 bt. Both have original unpainted woodwork/hutches. All utils are separate. Income is 4000/mo. Agent does not warrant legality of inlaw.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>"http://www.rubloff.com/property/chicago/08122718.cfm"},
-      "price"=>419000,
-      "priceReducedAmount"=>"30000",
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775533/387766518.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775539/387769819.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775550/387775350.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775532/387766361.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775550/387775239.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775556/387778229.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775558/387779133.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.38/775556/387778476.JPG"}],
-      "geocodedPropertyId"=>"04d4834ea4cd7261fdee08cbdafe2c99",
-      "id"=>"88304904",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/88304904d_1736_West_Roscoe_St",
-      "address"=>
-       {"line1"=>"1736 West Roscoe St.",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.943527,
-        "longitude"=>-87.672675},
-      "type"=>"Multi-Family Home",
-      "bed"=>10,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>
-         "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
-        "isEnhanced"=>false,
-        "id"=>"4314238"},
-      "identifiers"=>{"homeFinderListingKey"=>"88304904"}},
-     {"agent"=>
-       {"parentPartyId"=>1903181,
-        "type"=>"agent",
-        "name"=>"Kathryn Mastandrea",
-        "email"=>"Kathryn.mastandrea@cbexchange.com",
-        "phone"=>"8556345203",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/agent/1903351d_Kathryn_Mastandrea/",
-        "isEnhanced"=>true,
-        "id"=>"1903351"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Coldwell Banker Residential Brokerage Lake View",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/partiesRA/BRLOGO1/IMAGEJPG/4012267/401226763.JPG",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/1903181d_Coldwell_Banker_Residential_Brokerage_Lake_View/",
-        "isEnhanced"=>false,
-        "id"=>"1903181"},
-      "alertUpdateDate"=>"2012-12-07T08:18:10Z",
-      "createDate"=>"2012-12-05T06:00:00Z",
-      "updateDate"=>"2012-12-07T08:31:17Z",
-      "mlsId"=>"08228688",
-      "description"=>
-       "Prime Lakeview 2000 Sf Duplex-Up Extra Wide Interior Allows For Space & A Layout Not Seen in Many Duplex Units. 2 Bedrooms Main Level, Large Family Room Up & 3 Bathrooms 18X9 Storage Rm. Large Kitchen W/42\" White Cabs, Big Island, Wbfp in Lr, Ldry Room, Large Roof Top Deck & Garage. Awesome Family Room With 9' Ceilings and Tons Of Space & Light & 8 Skylights. Ideal Location On Quiet Side Of Sheffield.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing.",
-        "url"=>
-         "http://www.coldwellbankeronline.com/property/details/2912329/MLS-08228688/3328-North-Sheffield-Avenue-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"},
-      "price"=>415000,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819644/409822394.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819649/409824722.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819648/409824061.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819657/409828956.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819656/409828305.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819658/409829450.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819661/409830958.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819660/409830012.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819662/409831017.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819662/409831040.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819639/409819617.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819643/409821794.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819642/409821429.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/819641/409820978.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours34.vht.com/CBI/T390552581",
-      "geocodedPropertyId"=>"a5813069fe9f248eaec985825794eba1",
-      "id"=>"91911099",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/91911099d_3328_North_Sheffield_Avenue",
-      "address"=>
-       {"line1"=>"3328 North Sheffield Avenue",
-        "line2"=>"6",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.942661,
-        "longitude"=>-87.654355},
-      "type"=>"Condominium Unit",
-      "bed"=>2,
-      "bath"=>{"total"=>"3", "full"=>3},
-      "yearBuilt"=>1995,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"USREALGNRT Coldwell Banker NRT National",
-        "isEnhanced"=>false,
-        "id"=>"2385138"},
-      "identifiers"=>{"homeFinderListingKey"=>"91911099"}},
-     {"agent"=>
-       {"parentPartyId"=>861165,
-        "type"=>"agent",
-        "name"=>"Steve Hobbs",
-        "email"=>"steve.hobbs@bairdwarner.com",
-        "phone"=>"8883370823",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/1593242d_Steve_Hobbs/",
-        "isEnhanced"=>true,
-        "id"=>"1593242"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Baird & Warner Lincoln Park",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/8/6/1/861165/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/861165d_Baird_-and-_Warner_Lincoln_Park/",
-        "promoText"=>"Chicagoland's favorite way home since 1855.",
-        "isEnhanced"=>true,
-        "id"=>"861165"},
-      "alertUpdateDate"=>"2012-12-02T10:45:20Z",
-      "createDate"=>"2012-11-21T06:00:00Z",
-      "updateDate"=>"2012-12-05T18:23:06Z",
-      "mlsId"=>"08222411",
-      "description"=>
-       "Lakeview townhouse, dark hardwood floors, new carpeting, recently painted, large white cab kitchen with room for a table, pantry and kit level half bath, sep dining room, good sized bedrooms both ensuite, two baths with granite countertops, living room fireplace, vaulted ceilings, bay windows, lofted room works well as an office or could be 3rd bedroom, attached garage, patio. Burley Elem, 6 blocks to Belmont El.",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>
-         "http://listings.listhub.net/pages/BAIRDWARNER/08222411/?channel=homescape"},
-      "price"=>414900,
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815937/407968860.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815937/407968770.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815938/407969012.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815938/407969260.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815937/407968988.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815938/407969269.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815938/407969229.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815937/407968760.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/815937/407968861.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.40/817619/408809974.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours33.vht.com/BWI/T390599011/nobranding",
-      "geocodedPropertyId"=>"0418d738ffb8cee5d05a7f08d6056b0c",
-      "id"=>"91609694",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/91609694d_1231_W_Fletcher_Avenue",
-      "address"=>
-       {"line1"=>"1231 W. Fletcher Avenue",
-        "line2"=>"Unit F",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.938986,
-        "longitude"=>-87.660412},
-      "type"=>"Townhouse/Townhome",
-      "bed"=>2,
-      "bath"=>{"total"=>"3", "full"=>2, "half"=>1},
-      "yearBuilt"=>1987,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"HF3W_BW Baird & Warner Broker via Listhub",
-        "isEnhanced"=>false,
-        "id"=>"4645382"},
-      "identifiers"=>{"homeFinderListingKey"=>"91609694"}},
-     {"agent"=>
-       {"parentPartyId"=>861178,
-        "type"=>"agent",
-        "name"=>"Gina Purdy",
-        "email"=>"gina.purdy@bairdwarner.com",
-        "phone"=>"8884409897",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>"http://www.homefinder.com/agent/1592577d_Gina_Purdy/",
-        "isEnhanced"=>true,
-        "id"=>"1592577"},
-      "broker"=>
-       {"type"=>"broker",
-        "name"=>"Baird & Warner Edgebrook",
-        "logoUrl"=>
-         "http://images.homefinder.com/normal/advertisers/0/0/0/0/8/6/1/861178/logos/100x125/0.png",
-        "packageAffiliate"=>"chicagotribune",
-        "listingsUrl"=>
-         "http://www.homefinder.com/broker/861178d_Baird_-and-_Warner_Edgebrook/",
-        "promoText"=>"Chicagoland's favorite way home since 1855.",
-        "isEnhanced"=>true,
-        "id"=>"861178"},
-      "alertUpdateDate"=>"2012-12-10T10:56:14Z",
-      "createDate"=>"2012-10-19T05:00:00Z",
-      "updateDate"=>"2012-12-10T10:56:14Z",
-      "priceReducedDate"=>"2012-12-10T06:00:00Z",
-      "mlsId"=>"08181480",
-      "description"=>
-       "Beautiful greystone 3 bed 2 bath duplex in heart of Lakeview/Wrigleywille w/ garage pkng. Updated kitchen w/granite, custom cabinets, private deck off kitchen leads to gorgeous garden and pond. WB FP original woodwork and built-ins. Tons of storage and custom closets. Nettlehorst school, steps to lake, restaurants, shopping and transportation on a quiet one way street with great neighbors. Lives like single family!",
-      "externalUrl"=>
-       {"label"=>"Click here to learn more about this listing",
-        "url"=>
-         "http://listings.listhub.net/pages/BAIRDWARNER/08181480/?channel=homescape"},
-      "price"=>414900,
-      "priceReducedAmount"=>"5000",
-      "isEnhanced"=>true,
-      "isNewConstruction"=>false,
-      "isForeclosure"=>false,
-      "isRealtyTrac"=>false,
-      "isFeatured"=>false,
-      "isEcoFriendly"=>false,
-      "hasNewPhotos"=>true,
-      "hasOpenHouse"=>false,
-      "hasFeaturedVideo"=>false,
-      "primaryPhoto"=>
-       {"url"=>
-         "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113880.JPG"},
-      "photos"=>
-       [{"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113920.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113977.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113890.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113934.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113810.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113857.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113897.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113907.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113816.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113928.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113913.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113942.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113990.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113914.JPG"},
-        {"url"=>
-          "http://images.homefinder.com/normal/listings/EXTP/IMAGEJPG.39/806227/403113960.JPG"}],
-      "siteVirtualTourUrl"=>"http://tours30.vht.com/BWI/T50877586/nobranding",
-      "id"=>"90828140",
-      "url"=>
-       "http://www.homefinder.com/IL/Chicago/90828140d_3539_N_Fremont_Avenue",
-      "address"=>
-       {"line1"=>"3539 N. Fremont Avenue",
-        "line2"=>"Unit 1",
-        "city"=>"Chicago",
-        "state"=>"IL",
-        "zip"=>"60657",
-        "neighborhood"=>"Lakeview",
-        "latitude"=>41.946267,
-        "longitude"=>-87.652056},
-      "type"=>"Condominium Unit",
-      "bed"=>3,
-      "bath"=>{"total"=>"2", "full"=>2},
-      "squareFootage"=>1876,
-      "yearBuilt"=>1906,
-      "featuredVideoUrl"=>"",
-      "isRental"=>false,
-      "dataSource"=>
-       {"name"=>"HF3W_BW Baird & Warner Broker via Listhub",
-        "isEnhanced"=>false,
-        "id"=>"4645382"},
-      "identifiers"=>{"homeFinderListingKey"=>"90828140"}}]},
- "status"=>{"code"=>200, "errorStack"=>nil}}
+{
+  "data": {
+    "meta": {
+      "totalMatched": 9,
+      "totalPages": 1,
+      "currentPage": 1,
+      "facets": {
+        "searchByType": {
+          "1": {
+            "id": 1,
+            "name": "All Homes for Sale",
+            "count": 9,
+            "isSelected": false
+          },
+          "3": {
+            "id": 3,
+            "name": "Agent & Broker Listings",
+            "count": 9,
+            "isSelected": false
+          }
+        },
+        "city": [{
+          "name": "Chicago",
+          "count": 9,
+          "isSelected": false
+        }],
+        "neighborhood": [{
+          "name": "Lakeview",
+          "count": 8,
+          "isSelected": false
+        }, {
+          "name": "Roscoe Village",
+          "count": 1,
+          "isSelected": false
+        }],
+        "county": [{
+          "name": "Cook",
+          "count": 9,
+          "isSelected": false
+        }],
+        "zip": [{
+          "name": "60657",
+          "count": 9,
+          "isSelected": false
+        }]
+      },
+      "area": {
+        "cities": ["Chicago"],
+        "state": "IL",
+        "county": "Cook",
+        "type": "zip",
+        "name": "60657",
+        "listingsCount": 9,
+        "latitude": 0,
+        "longitude": 0,
+        "url": "http:\/\/www.homefinder.com\/zip-code\/60657\/min_price_449000\/max_price_450000\/"
+      },
+      "searchResultsUrl": "http:\/\/www.homefinder.com\/zip-code\/60657\/min_price_449000\/max_price_450000\/",
+      "executionTime": 0.15707993507385
+    },
+    "listings": [{
+      "agent": {
+        "parentPartyId": 1903138,
+        "type": "agent",
+        "name": "Stephanie Cutter",
+        "email": "stephanie.cutter@cbexchange.com",
+        "phone": "8555461609",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/1903347d_Stephanie_Cutter\/",
+        "isEnhanced": true,
+        "id": "1903347"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Coldwell Banker Residential",
+        "logoUrl": "http:\/\/images.homefinder.com\/normal\/partiesRA\/BRLOGO1\/IMAGEJPG\/3679757\/367975714.JPG",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/1903138d_Coldwell_Banker_Residential\/",
+        "isEnhanced": false,
+        "id": "1903138"
+      },
+      "alertUpdateDate": "2012-11-07T15:44:08Z",
+      "createDate": "2012-10-26T05:00:00Z",
+      "updateDate": "2012-11-14T21:35:04Z",
+      "mlsId": "08207433",
+      "description": "End unit townhome with rare private, fenced-in yard and a terrace on a corner lot! This home has been carefully maintained and updated and has a great floorplan! Main level has living room and a dining room open to the kitchen and terrace. Three bedrooms upstairs and a full finished basement with a family room, office area and full bath! Updates include heated floors in bathrooms, some new windows, new hardwood floors, new w\/d, landscaping, new fence. Parking space included. No assessments!",
+      "externalUrl": {
+        "label": "Click here to learn more about this listing.",
+        "url": "http:\/\/www.coldwellbankeronline.com\/property\/details\/2875312\/MLS-08207433\/2857-North-Greenview-Avenue-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"
+      },
+      "price": 449900,
+      "isEnhanced": true,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808238\/404119444.JPG"
+      },
+      "photos": [{
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808246\/404123377.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808237\/404118667.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808230\/404115129.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808238\/404119060.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808231\/404115930.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808232\/404116298.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808230\/404115331.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808233\/404116734.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808231\/404115795.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808239\/404119672.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808229\/404114631.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/810774\/405387445.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/810781\/405390715.JPG"
+      }],
+      "siteVirtualTourUrl": "http:\/\/tours33.vht.com\/CBI\/T390564256",
+      "geocodedPropertyId": "5c0cb23269243f12febd2e9d7549984d",
+      "id": "90973780",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/90973780d_2857_North_Greenview_Avenue",
+      "address": {
+        "line1": "2857 North Greenview Avenue",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.934132,
+        "longitude": -87.665808
+      },
+      "type": "Condominium Unit",
+      "bed": 3,
+      "bath": {
+        "total": "3",
+        "full": 2,
+        "half": 1
+      },
+      "featuredVideoUrl": "",
+      "isRental": false,
+      "dataSource": {
+        "name": "USREALGNRT Coldwell Banker NRT National",
+        "isEnhanced": false,
+        "id": "2385138"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "90973780"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 945861,
+        "type": "agent",
+        "name": "Thomas Moran",
+        "email": "tmoran@Rubloff.com",
+        "phone": "8778389743",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/4230889d_Thomas_Moran\/",
+        "isEnhanced": true,
+        "id": "4230889"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Prudential Rubloff",
+        "email": "contactus@Rubloff.com",
+        "logoUrl": "http:\/\/images.homefinder.com\/normal\/advertisers\/0\/0\/0\/0\/9\/4\/5\/945861\/logos\/100x125\/0.png",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/945861d_Prudential_Rubloff\/",
+        "promoText": "One Magnificent Life",
+        "isEnhanced": true,
+        "id": "945861"
+      },
+      "alertUpdateDate": "2012-10-12T01:17:06Z",
+      "createDate": "2012-10-05T05:00:00Z",
+      "updateDate": "2012-12-05T18:33:05Z",
+      "mlsId": "08173186",
+      "description": "STUNNING LIGHT-FILLED DUPLEX-UP W\/ EXQUISITE HIGH END FINISHES. REAR UNIT=NO SOUTHPORT EXPOSURE OR NOISE, KIT, DIN & GREAT RM OPEN ONTO A SPRAWLING DECK. 9'6\" CEILS. HDWD FLRS THRUOUT. 42\"CHERRYCAB, SS APPLS\/ SUBZERO, BOSCH, THERMADOR. GRANITE CNTRS W\/ FULL GRANITE BACKSPLASH. MARBLE BATHS, JACUZZI, DBL VANITY. W\/D, FPLC, CROWN MOLDING THRUOUT. CUSTOM SPEAKERS THRUOUT. CUSTOM WINDOW TRMTS. GARAGE PKG INCLD.",
+      "externalUrl": {
+        "label": "Click here to learn more about this listing",
+        "url": "http:\/\/www.rubloff.com\/property\/chicago\/08173186.cfm"
+      },
+      "price": 449900,
+      "isEnhanced": true,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801239\/400619770.JPG"
+      },
+      "photos": [{
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801233\/400616979.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801237\/400618802.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801238\/400619446.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801235\/400617690.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801234\/400617144.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801235\/400617778.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801242\/400621470.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801235\/400617877.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/801239\/400619731.JPG"
+      }],
+      "siteVirtualTourUrl": "http:\/\/tours33.vht.com\/PPI\/T390504439\/nobranding",
+      "geocodedPropertyId": "b45d75d21c8367e280dbdabccc73d5be",
+      "id": "90420832",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/90420832d_3530_North_Southport_Avenue",
+      "address": {
+        "line1": "3530 North Southport Avenue",
+        "line2": "2C",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.946137,
+        "longitude": -87.664332
+      },
+      "type": "Duplex",
+      "bed": 2,
+      "bath": {
+        "total": "3",
+        "full": 2,
+        "half": 1
+      },
+      "yearBuilt": 2002,
+      "featuredVideoUrl": "",
+      "isRental": false,
+      "dataSource": {
+        "name": "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
+        "isEnhanced": false,
+        "id": "4314238"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "90420832"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 1903181,
+        "type": "agent",
+        "name": "Chaz Walters",
+        "email": "chaz@chazwalters.com",
+        "phone": "8552872843",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/543318d_Chaz_Walters\/",
+        "promoText": "Keeping it Hot! Hot Property!!",
+        "isEnhanced": true,
+        "id": "543318"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Coldwell Banker Residential Brokerage Lake View",
+        "logoUrl": "http:\/\/images.homefinder.com\/normal\/partiesRA\/BRLOGO1\/IMAGEJPG\/4012267\/401226763.JPG",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/1903181d_Coldwell_Banker_Residential_Brokerage_Lake_View\/",
+        "isEnhanced": false,
+        "id": "1903181"
+      },
+      "alertUpdateDate": "2012-11-14T21:23:02Z",
+      "createDate": "2012-08-29T05:00:00Z",
+      "updateDate": "2012-11-14T21:23:02Z",
+      "priceReducedDate": "2012-09-22T05:00:00Z",
+      "mlsId": "08147035",
+      "description": "Exquisite 1800sf extra-wide condo on lovely tree-lined street in Lakeview! Spacious open living\/dining rooms offer multiple seating areas. Cherry floors w\/maple inlay, gorgeous trim thru-out, recessed lighting, FP, island kitchen w\/granite tops, full-height backsplash & updated SS appliances. MA bedroom w\/huge bath & spa shower. Lovely covered, front terrace & rear balconies w\/gas hookup. 1 parking space included!",
+      "externalUrl": {
+        "label": "Click here to learn more about this listing.",
+        "url": "http:\/\/www.coldwellbankeronline.com\/property\/details\/2806971\/MLS-08147035\/818-West-Aldine-Avenue-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"
+      },
+      "price": 449850,
+      "priceReducedAmount": "50",
+      "isEnhanced": true,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787569\/393784583.JPG"
+      },
+      "photos": [{
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787577\/393788858.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787585\/393792657.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787570\/393785179.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787578\/393789315.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787572\/393786384.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787579\/393789531.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787581\/393790804.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787585\/393792628.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787585\/393792802.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787582\/393791050.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787577\/393788740.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787575\/393787645.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787584\/393792335.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787575\/393787680.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.38\/787584\/393792368.JPG"
+      }],
+      "siteVirtualTourUrl": "http:\/\/tours31.vht.com\/CBI\/T50927400",
+      "geocodedPropertyId": "97a44aa2a334f22354ff71871813f529",
+      "id": "89291637",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/89291637d_818_West_Aldine_Avenue",
+      "address": {
+        "line1": "818 West Aldine Avenue",
+        "line2": "3",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.942055,
+        "longitude": -87.650127
+      },
+      "type": "Condominium Unit",
+      "bed": 2,
+      "bath": {
+        "total": "2",
+        "full": 2
+      },
+      "yearBuilt": 2004,
+      "featuredVideoUrl": "",
+      "isRental": false,
+      "dataSource": {
+        "name": "USREALGNRT Coldwell Banker NRT National",
+        "isEnhanced": false,
+        "id": "2385138"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "89291637"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 861163,
+        "type": "agent",
+        "name": "Sharon Gillman",
+        "email": "sharon.gillman@bairdwarner.com",
+        "phone": "8886838234",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/1687681d_Sharon_Gillman\/",
+        "isEnhanced": true,
+        "id": "1687681"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Baird & Warner Gold Coast",
+        "logoUrl": "http:\/\/images.homefinder.com\/normal\/advertisers\/0\/0\/0\/0\/8\/6\/1\/861163\/logos\/100x125\/0.png",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/861163d_Baird_-and-_Warner_Gold_Coast\/",
+        "promoText": "Chicagoland's favorite way home since 1855.",
+        "isEnhanced": true,
+        "id": "861163"
+      },
+      "alertUpdateDate": "2012-11-29T10:46:13Z",
+      "createDate": "2012-11-09T06:00:00Z",
+      "updateDate": "2012-12-05T18:23:04Z",
+      "mlsId": "08215867",
+      "description": "Rarely available 4 br\/3 bath SE corner apt. with approx 2,100 sf! Gorgeous, forever views of Lake, park, and city from east and south-facing wall of windows, plus 2 large balconies! Perfect family home with split bedrm floor plan, huge liv rm, lg entry foyer, lots of closets, white kit. Move-in condition, new carpeting, just painted. Steps from LincPk, harbor, historic mansions, buses. Dogs under 35lbs allowed!",
+      "externalUrl": {
+        "label": "Click here to learn more about this listing",
+        "url": "http:\/\/listings.listhub.net\/pages\/BAIRDWARNER\/08215867\/?channel=homescape"
+      },
+      "price": 449500,
+      "isEnhanced": true,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/812306\/406153382.JPG"
+      },
+      "photos": [{
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814154\/407077262.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814176\/407088356.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814152\/407076169.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814154\/407077106.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814184\/407092174.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814151\/407075549.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814150\/407075103.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814150\/407075109.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/814152\/407076190.JPG"
+      }],
+      "siteVirtualTourUrl": "http:\/\/tours33.vht.com\/BWI\/T390596907\/nobranding",
+      "id": "91305298",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/91305298d_339_W_Barry_Avenue",
+      "address": {
+        "line1": "339 W. Barry Avenue",
+        "line2": "Unit 25C",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.937932,
+        "longitude": -87.638101
+      },
+      "type": "Condominium Unit",
+      "bed": 4,
+      "bath": {
+        "total": "3",
+        "full": 3
+      },
+      "squareFootage": 2100,
+      "yearBuilt": 1963,
+      "featuredVideoUrl": "",
+      "isRental": false,
+      "dataSource": {
+        "name": "HF3W_BW Baird & Warner Broker via Listhub",
+        "isEnhanced": false,
+        "id": "4645382"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "91305298"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 323011,
+        "type": "agent",
+        "name": "Christy Starks",
+        "email": "christystarks1@aol.com",
+        "phone": "8552645056",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/360885d_Christy_Starks\/",
+        "isEnhanced": true,
+        "id": "360885"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Property Consultants Realty, Inc.",
+        "logoUrl": "http:\/\/images.homefinder.com\/normal\/partiesRA\/BRLOGO1\/IMAGEJPG\/1231594\/123159440.JPG",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/323011d_Property_Consultants_Realty_Inc\/",
+        "isEnhanced": false,
+        "id": "323011"
+      },
+      "alertUpdateDate": "2012-11-20T21:17:18Z",
+      "createDate": "2012-11-20T06:00:00Z",
+      "updateDate": "2012-11-26T06:18:02Z",
+      "mlsId": "08222281",
+      "description": "Well maintained 2 unit building on standard lot. First floor apartment is 3BR and upper level is 2BR. Both have large separate living room and dining rooms. Excellent location near Hamlin Park and Roscoe Village.  Value is in land.",
+      "price": 449000,
+      "isEnhanced": true,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.40\/815847\/407923989.JPG"
+      },
+      "photos": [{
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.40\/815849\/407924986.JPG"
+      }],
+      "geocodedPropertyId": "91dc3eab9ae6465ec4a5164bd779c9e5",
+      "id": "91584214",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/91584214d_1912_West_George_St",
+      "address": {
+        "line1": "1912 West George St.",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Roscoe Village",
+        "latitude": 41.934393,
+        "longitude": -87.676407
+      },
+      "type": "Multi-Family Home",
+      "bed": 5,
+      "featuredVideoUrl": "",
+      "isRental": false,
+      "dataSource": {
+        "name": "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
+        "isEnhanced": false,
+        "id": "4314238"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "91584214"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 1330268,
+        "type": "agent",
+        "name": "Eric Rojas",
+        "email": "erojas@rubloff.com",
+        "phone": "8883512148",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/1820648d_Eric_Rojas\/",
+        "isEnhanced": true,
+        "id": "1820648"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Kale Realty",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/1330268d_Kale_Realty\/",
+        "isEnhanced": false,
+        "id": "1330268"
+      },
+      "alertUpdateDate": "2012-11-22T07:44:32Z",
+      "createDate": "2012-11-16T06:00:00Z",
+      "updateDate": "2012-12-08T19:42:06Z",
+      "mlsId": "08220839",
+      "description": "Create your dream home in prime East Lakeview location on West Briar Place. HUGE south facing apprx 4000 sq\/ft duplex condo w\/ deeded parking slab ($30K fits 2-3 cars). 4 unit building, 100% owners. 3000+ sq\/ft main floor 4 beds, two baths, BIG front terrace. Lower level w\/ kit+bath perfect for au pair\/ nanny, family room, bedrooms. Steps to lake, express bus downtown. Nettlehorst School. 3 guest parking on site!",
+      "price": 449000,
+      "isEnhanced": true,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.40\/814758\/407379018.JPG"
+      },
+      "id": "91494791",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/91494791d",
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.938918,
+        "longitude": -87.640258
+      },
+      "type": "Duplex",
+      "bed": 5,
+      "bath": {
+        "total": "3",
+        "full": 3
+      },
+      "yearBuilt": 1918,
+      "featuredVideoUrl": "",
+      "isRental": false,
+      "dataSource": {
+        "name": "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
+        "isEnhanced": false,
+        "id": "4314238"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "91494791"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 322918,
+        "type": "agent",
+        "name": "Nancy Donley",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/332067d_Nancy_Donley\/",
+        "isEnhanced": false,
+        "id": "332067"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Koenig & Strey",
+        "email": "LPEastmarketing@koenigstrey.com",
+        "phone": "8773318688",
+        "logoUrl": "http:\/\/images.homefinder.com\/normal\/advertisers\/0\/0\/0\/0\/3\/2\/2\/322918\/logos\/100x125\/0.png",
+        "packageAffiliate": "chicagotribune",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/322918d_Koenig_-and-_Strey\/",
+        "promoText": "Buy now. Ask us why. koenigstrey.com",
+        "isEnhanced": true,
+        "id": "322918"
+      },
+      "alertUpdateDate": "2012-10-28T06:36:06Z",
+      "createDate": "2012-10-26T05:00:00Z",
+      "updateDate": "2012-12-08T19:51:03Z",
+      "mlsId": "08208081",
+      "description": "Exquisitely detailed construction throughout this elegant 2 bedroom, 2 bath penthouse unit including individually crafted tray ceilings, ornate moldings, custom cherry kitchen with Bosch, SubZero & Viking appliances, Brazilian cherry floors and whole house audio system. marble baths. Master suite has huge walk-in closet, bath with double vanities, whirlpool & separate steam shower. 50x16 private roof deck, storage & garage round out this superb package. For more information on this property, contact the listing agent, Nancy Donley at (773) 419-#### or ndonley@koenigstrey. com.",
+      "externalUrl": {
+        "label": "Click here to learn more about this listing",
+        "url": "http:\/\/3547NWilton4N.com"
+      },
+      "price": 449000,
+      "isEnhanced": true,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808462\/404231441.JPG"
+      },
+      "photos": [{
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808460\/404230471.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808465\/404232802.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808469\/404234598.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808469\/404234645.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808465\/404232933.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808464\/404232437.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808464\/404232473.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808468\/404234229.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/808468\/404234270.JPG"
+      }],
+      "siteVirtualTourUrl": "http:\/\/tours33.vht.com\/KSI\/T390518406\/nobranding",
+      "geocodedPropertyId": "8d137ac53b1a8f41c3244921cdaaa475",
+      "id": "90972552",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/90972552d_3547_North_Wilton_Avenue",
+      "address": {
+        "line1": "3547 North Wilton Avenue",
+        "line2": "4N",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.946767,
+        "longitude": -87.653086
+      },
+      "type": "Condominium Unit",
+      "bed": 2,
+      "bath": {
+        "total": "2",
+        "full": 2
+      },
+      "yearBuilt": 2006,
+      "featuredVideoUrl": "",
+      "isRental": false,
+      "dataSource": {
+        "name": "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
+        "isEnhanced": false,
+        "id": "4314238"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "90972552"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 3517164,
+        "type": "agent",
+        "name": "Irina Zelt",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/546091d_Irina_Zelt\/",
+        "isEnhanced": false,
+        "id": "546091"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "American International Realty Corp",
+        "phone": "7735099493",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/3517164d_American_International_Realty_Corp\/",
+        "isEnhanced": false,
+        "id": "3517164"
+      },
+      "alertUpdateDate": "2012-03-02T01:44:09Z",
+      "createDate": "2012-03-01T06:00:00Z",
+      "updateDate": "2012-08-25T02:04:05Z",
+      "mlsId": "07678047",
+      "description": "THIS LOVELY VICTORIAN WITH CHARACTER IS IN A HOT LOCATION LAKEVIEW. NEW MECHANICS WITH NEW GARAGE. OWNERS UNIT HAS ENCLOSED BACK PORCH FINISHED FOR OFFICE, PATIO OR 4TH BEDROOM, IN THIS HOT NEIGHBORHOOD WILL NOT LAST LONG. ***THIS IS SHORT SALE***",
+      "price": 449000,
+      "isEnhanced": false,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": false,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "geocodedPropertyId": "4de636afe4c544d4591853f9b5818d0d",
+      "id": "84076364",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/84076364d_1102_West_Wellington_Avenue",
+      "address": {
+        "line1": "1102 West Wellington Avenue",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.936503,
+        "longitude": -87.65668
+      },
+      "type": "Multi-Family Home",
+      "featuredVideoUrl": null,
+      "isRental": false,
+      "dataSource": {
+        "name": "ILMRED2 Midwest Real Estate Data LLC - Internal Broker Opt-In",
+        "isEnhanced": false,
+        "id": "4314238"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "84076364"
+      }
+    }, {
+      "agent": {
+        "parentPartyId": 1953159,
+        "type": "agent",
+        "name": "Emily Smart LeMire",
+        "listingsUrl": "http:\/\/www.homefinder.com\/agent\/1953248d_Emily_Smart_LeMire\/",
+        "isEnhanced": false,
+        "id": "1953248"
+      },
+      "broker": {
+        "type": "broker",
+        "name": "Coldwell Banker Residential Brokerage Halsted",
+        "phone": "3129431959",
+        "listingsUrl": "http:\/\/www.homefinder.com\/broker\/1953159d_Coldwell_Banker_Residential_Brokerage_Halsted\/",
+        "isEnhanced": false,
+        "id": "1953159"
+      },
+      "alertUpdateDate": "2012-11-13T14:00:22Z",
+      "createDate": "2012-09-27T05:00:00Z",
+      "updateDate": "2012-11-14T21:27:06Z",
+      "mlsId": "08167066",
+      "description": "Private roofdeck completes this bright 2 bed, 2 bath penthouse in fantastic Lakeview location! Unit features vaulted ceilings, skylights, hardwood flrs throughout, S\/S appliances, granite cntrs, master bath w\/marble, double sinks, oversized shwr & Jacuzzi tub. Rear deck in addition to private rooftop. In unit laundry, additional storage, and garage parking! Walking distance to Southport Corridor, Wrigley, EL & more.",
+      "externalUrl": {
+        "label": "Click here to learn more about this listing.",
+        "url": "http:\/\/www.coldwellbankeronline.com\/property\/details\/2841308\/MLS-08167066\/3353-North-Seminary-Avenue-Chicago-LakeView-IL-60657.aspx?utm_campaign=OLDP-HomeFinder&utm_source=homefinder&utm_medium=oldp&utm_content=listing"
+      },
+      "price": 449000,
+      "isEnhanced": false,
+      "isNewConstruction": false,
+      "isForeclosure": false,
+      "isRealtyTrac": false,
+      "isFeatured": false,
+      "isEcoFriendly": false,
+      "hasNewPhotos": true,
+      "hasOpenHouse": false,
+      "hasFeaturedVideo": false,
+      "primaryPhoto": {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/797617\/398808719.JPG"
+      },
+      "photos": [{
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/797626\/398813296.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/797614\/398807414.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/797615\/398807917.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/797610\/398805446.JPG"
+      }, {
+        "url": "http:\/\/images.homefinder.com\/normal\/listings\/EXTP\/IMAGEJPG.39\/797609\/398804825.JPG"
+      }],
+      "geocodedPropertyId": "ef992a50ee8135ce25288fdf0920c9a5",
+      "id": "90136888",
+      "url": "http:\/\/www.homefinder.com\/IL\/Chicago\/90136888d_3353_North_Seminary_Avenue",
+      "address": {
+        "line1": "3353 North Seminary Avenue",
+        "line2": "3",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60657",
+        "neighborhood": "Lakeview",
+        "latitude": 41.943262,
+        "longitude": -87.656479
+      },
+      "type": "Condominium Unit",
+      "bed": 2,
+      "bath": {
+        "total": "2",
+        "full": 2
+      },
+      "yearBuilt": 2004,
+      "featuredVideoUrl": null,
+      "isRental": false,
+      "dataSource": {
+        "name": "USREALGNRT Coldwell Banker NRT National",
+        "isEnhanced": false,
+        "id": "2385138"
+      },
+      "identifiers": {
+        "homeFinderListingKey": "90136888"
+      }
+    }]
+  },
+  "status": {
+    "code": 200,
+    "errorStack": null
+  }
+}
