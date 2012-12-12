@@ -1,3 +1,53 @@
+class Hf.Views.PropertySearchMetaView extends Backbone.View
+  template:
+    '<p>Total matches: <%= totalMatched %></p>'
+    {"meta"=>
+      {"totalMatched"=>100,
+       "totalPages"=>5,
+       "currentPage"=>1,
+       "facets"=>
+        {"searchByType"=>
+          {"1"=>
+            {"id"=>1,
+             "name"=>"All Homes for Sale",
+             "count"=>100,
+             "isSelected"=>false},
+           "3"=>
+            {"id"=>3,
+             "name"=>"Agent & Broker Listings",
+             "count"=>74,
+             "isSelected"=>false},
+           "4"=>
+            {"id"=>4,
+             "name"=>"Owner & Classifieds",
+             "count"=>1,
+             "isSelected"=>false},
+           "5"=>
+            {"id"=>5, "name"=>"Foreclosures", "count"=>25, "isSelected"=>false}},
+         "city"=>[{"name"=>"Chicago", "count"=>100, "isSelected"=>false}],
+         "neighborhood"=>
+          [{"name"=>"Lakeview", "count"=>93, "isSelected"=>false},
+           {"name"=>"Roscoe Village", "count"=>4, "isSelected"=>false},
+           {"name"=>"DePaul", "count"=>1, "isSelected"=>false},
+           {"name"=>"Near North Side", "count"=>1, "isSelected"=>false},
+           {"name"=>"North Center", "count"=>1, "isSelected"=>false}],
+         "county"=>[{"name"=>"Cook", "count"=>100, "isSelected"=>false}],
+         "zip"=>[{"name"=>"60657", "count"=>100, "isSelected"=>false}]},
+       "area"=>
+        {"cities"=>["Chicago"],
+         "state"=>"IL",
+         "county"=>"Cook",
+         "type"=>"zip",
+         "name"=>"60657",
+         "listingsCount"=>100,
+         "latitude"=>0,
+         "longitude"=>0,
+         "url"=>
+          "http://www.homefinder.com/zip-code/60657/min_price_350000/max_price_450000/"},
+       "searchResultsUrl"=>
+        "http://www.homefinder.com/zip-code/60657/min_price_350000/max_price_450000/",
+       "executionTime"=>0.14519095420837},
+
 class Hf.Views.PropertyView extends Backbone.View
   render: ->
     return this
@@ -66,6 +116,7 @@ class Hf.Views.PropertiesView extends Backbone.View
   
   template: 
     "<div id='search'></div>" +
+    "<div id='meta'></div>" +
     "<div id='properties'></div>"
   
   initialize: (options) ->
