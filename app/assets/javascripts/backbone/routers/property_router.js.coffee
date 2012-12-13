@@ -25,11 +25,19 @@ class Hf.Routers.PropertiesRouter extends Backbone.Router
       @view.unbind()
 
     properties = new Hf.Collections.PropertiesCollection()
+    properties.fetch
+      data:
+        zip: zip
+        min: min
+        max: max
+        page: page
+        
     @view = new Hf.Views.PropertiesView(
       collection: properties
       zip: zip
       min: min
       max: max
+      search: true
     )
     
     @view.on('view:properties:click', @handlePropertyClick, @)
@@ -56,4 +64,6 @@ class Hf.Routers.PropertiesRouter extends Backbone.Router
     min = data.min
     max = data.max
     page = data.page or 1
-    @navigate("#{zip}/#{min}/to/#{max}/#{page}")
+    @navigate("#{zip}/#{min}/to/#{max}/#{page}",
+      trigger: true
+    )

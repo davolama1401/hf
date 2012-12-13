@@ -41,8 +41,6 @@ class Hf.Views.PropertyView extends Backbone.View
                 '<%= address.city%>, <%= address.state %> <%= address.zip %> <br> ' +
               '</address> ' +
             '</h4>' +
-            '<h4 class="media-heading">Price</h4>' +
-            '<p><%= price %></p>' +
             '<h4 class="media-heading">Property Description</h4>' +
             '<p><%= description %></p>' +
             '<h4 class="media-heading">Agent Information</h4>' +

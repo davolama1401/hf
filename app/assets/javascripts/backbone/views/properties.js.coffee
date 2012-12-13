@@ -30,7 +30,7 @@ class Hf.Views.PropertyMiniView extends Backbone.View
     '</div>'
 
   detailsTemplate:
-    "<div>Price: <%= price %>" + 
+    "<div><strong>Price: <%= price %></strong>" + 
     "<% if (typeof(bed) != 'undefined') {%>" +
     ", Beds: <%= bed %>" +
     "<% } else { %>" +
@@ -118,10 +118,16 @@ class Hf.Views.PropertiesListView extends Backbone.View
   initialize: (options) ->
     if @collection?
       @collection.on('reset', @addAll, @)
-      @collection.on('prefetch', @showSpinner, @)
+    
+    @search = false
+    if options.search?
+      @search = options.search
       
   render: ->
-    @$el.html(@getStartedTemplate)
+    unless @search
+      @$el.html(@getStartedTemplate)
+    else
+      @showSpinner()
     return this
     
   showSpinner: (e) ->
@@ -246,7 +252,6 @@ class Hf.Views.PropertySearchView extends Backbone.View
       @zip = null
       @min = null
       @max = null
-      @doSearch()
       
     return this
     
@@ -260,12 +265,6 @@ class Hf.Views.PropertySearchView extends Backbone.View
   executeSearch: (searchCriteria) ->
     if searchCriteria? and searchCriteria.zip
       @collection.trigger('prefetch', searchCriteria)
-      @collection.fetch
-        data:
-          zip:  searchCriteria.zip
-          min:  searchCriteria.min
-          max:  searchCriteria.max
-          page: searchCriteria.page
     else
       alert("you must at least enter a zipcode")
     
@@ -298,7 +297,7 @@ class Hf.Views.PropertiesView extends Backbone.View
     )
     @collection.on('prefetch', @handlePreFetch, @)
 
-    @propertiesListView = new Hf.Views.PropertiesListView(collection: @collection)
+    @propertiesListView = new Hf.Views.PropertiesListView(collection: @collection, search: options.search)
     @propertiesListView.on("view:properties_list:click", @handlePropertyClick, @)
 
   handlePreFetch: (data) =>
