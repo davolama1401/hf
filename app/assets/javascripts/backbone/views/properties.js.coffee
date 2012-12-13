@@ -273,11 +273,6 @@ class Hf.Views.PropertySearchView extends Backbone.View
       @collection.trigger('prefetch', searchCriteria)
     
   validate: (searchCriteria) ->
-    # searchCriteria = {}
-    # searchCriteria.zip = @$('#zip').val()
-    # searchCriteria.min = @$('#min').val()
-    # searchCriteria.max = @$('#max').val()
-    # return searchCriteria
     valid = true
     unless searchCriteria?
       $("#alerts").append(_.template(@errorTemplate, message: "Please enter a zipcode."))
