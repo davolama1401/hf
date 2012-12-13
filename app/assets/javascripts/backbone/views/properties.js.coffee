@@ -225,7 +225,7 @@ class Hf.Views.PropertySearchView extends Backbone.View
         '<div class="container">' +
           '<a class="brand" href="#">HomeFinder.com</a>' +
           '<form class="navbar-form pull-right">' +
-            '<input type="text" id="zip" placeholder="Address or Zipcode">' +
+            '<input type="text" id="zip" placeholder="Zipcode">' +
             '<input type="text" id="min" placeholder="Min Price">' +
             '<input type="text" id="max" placeholder="Max Price">' +
             '<button type="submit" class="btn">Search</button>' +
