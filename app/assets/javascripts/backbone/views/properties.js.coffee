@@ -30,7 +30,7 @@ class Hf.Views.PropertyMiniView extends Backbone.View
     '</div>'
 
   detailsTemplate:
-    "<div><strong>Price: <%= price %></strong>" + 
+    "<div><strong>Price:</strong> <%= price %>" + 
     "<% if (typeof(bed) != 'undefined') {%>" +
     ", Beds: <%= bed %>" +
     "<% } else { %>" +
@@ -213,6 +213,12 @@ class Hf.Views.PropertyPaginationView extends Backbone.View
     @currentPage = metaData.currentPage || 0
     
 class Hf.Views.PropertySearchView extends Backbone.View
+  errorTemplate:
+    '<div class="alert alert-error">' +
+    '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
+    '<strong>Oops!</strong> <%= message %>' +
+    '</div>'
+    
   template:
     '<div class="navbar">' +
       '<div class="navbar-inner">' +
@@ -263,10 +269,37 @@ class Hf.Views.PropertySearchView extends Backbone.View
     return searchCriteria
     
   executeSearch: (searchCriteria) ->
-    if searchCriteria? and searchCriteria.zip
+    if @validate(searchCriteria)
       @collection.trigger('prefetch', searchCriteria)
+    
+  validate: (searchCriteria) ->
+    # searchCriteria = {}
+    # searchCriteria.zip = @$('#zip').val()
+    # searchCriteria.min = @$('#min').val()
+    # searchCriteria.max = @$('#max').val()
+    # return searchCriteria
+    valid = true
+    unless searchCriteria?
+      $("#alerts").append(_.template(@errorTemplate, message: "Please enter a zipcode."))
+      valid = false
     else
-      alert("you must at least enter a zipcode")
+      unless searchCriteria.zip
+        $("#alerts").append(_.template(@errorTemplate, message: "Please enter a zipcode."))
+        valid = false
+      
+      unless parseInt(searchCriteria.zip) > 0
+        $("#alerts").append(_.template(@errorTemplate, message: "Please enter a valid zipcode."))
+        valid = false
+
+      unless searchCriteria.min? and parseInt(searchCriteria.min) >= 0
+        $("#alerts").append(_.template(@errorTemplate, message: "Please enter a valid minimum price."))
+        valid = false
+
+      unless searchCriteria.max? and parseInt(searchCriteria.max) >= 0
+        $("#alerts").append(_.template(@errorTemplate, message: "Please enter a valid maximum price."))
+        valid = false
+    
+    return valid
     
   doSearch: (e) =>
     if e

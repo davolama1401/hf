@@ -25,6 +25,9 @@ class PropertiesController < ApplicationController
     max  = params[:max]
     page = params[:page]
     response = HTTParty.get("http://services.homefinder.com/listingServices/search?area=#{zip}&price=#{min}%20TO%20#{max}&page=#{page}&apikey=#{API_KEY}")
+
+    responseObj = ActiveSupport::JSON.decode(response.body)
+    Rails.logger.debug {"status code is #{response["status"]["code"]}"}
     response.body
   end
 end

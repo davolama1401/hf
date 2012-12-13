@@ -14,7 +14,7 @@ class Hf.Collections.PropertiesCollection extends Backbone.Collection
   url: '/api/properties'
   
   parse: (data) ->
-    if !data
+    if !data.data
       @meta = null
       return []
     @meta = data.data.meta
